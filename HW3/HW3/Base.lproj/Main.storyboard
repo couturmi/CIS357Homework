@@ -58,6 +58,9 @@
                                 <rect key="frame" x="320" y="104" width="39" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Clear"/>
+                                <connections>
+                                    <action selector="clearData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bdx-rh-csQ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Distance:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KT1-kx-nG2">
                                 <rect key="frame" x="16" y="142" width="80" height="21"/>
@@ -76,6 +79,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="latp1" destination="m0z-WV-HXZ" id="JHY-9E-6fa"/>
+                        <outlet property="latp2" destination="hhl-KG-VkW" id="Fhy-O6-mrf"/>
+                        <outlet property="longp1" destination="LRR-P0-MHp" id="NmA-3d-Oyb"/>
+                        <outlet property="longp2" destination="Zn0-e0-mUU" id="RCZ-AC-htG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
