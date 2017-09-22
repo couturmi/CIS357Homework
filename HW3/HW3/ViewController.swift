@@ -8,6 +8,7 @@
 
 import UIKit
 import Foundation
+import CoreLocation
 
 class ViewController: UIViewController {
     @IBOutlet weak var latp1: UITextField!
@@ -39,23 +40,30 @@ class ViewController: UIViewController {
 
     @IBAction func calculateData(_ sender: Any) {
         // set values
-        let latitude1:Double = Double(self.longp1.text!)!
-        let latitude2:Double = Double(self.longp2.text!)!
-        let longitude1:Double = Double(self.latp1.text!)!
-        let longitude2:Double = Double(self.latp2.text!)!
-        // set radius of Earth
+        let latitude1:Double = deg2rad(Double(self.latp1.text!)!)
+        let latitude2:Double = deg2rad(Double(self.latp2.text!)!)
+        let longitude1:Double = deg2rad(Double(self.longp1.text!)!)
+        let longitude2:Double = deg2rad(Double(self.longp2.text!)!)
+//        // set radius of Earth
         let R: Double = 6371.0
         
         // calculate distance
-        let dlong = deg2rad(latitude2 - latitude1)
-        let dlat = deg2rad(longitude1 - longitude2)
-        let a = pow(sin(dlat/2),2) + cos(deg2rad(latitude1)) * cos(deg2rad(latitude2)) * pow(sin(dlong/2),2)
+        let dlat = latitude2 - latitude1
+        let dlong = longitude2 - longitude1
+        let a = pow(sin(dlat/2),2) + cos(latitude1) * cos(latitude2) * pow(sin(dlong/2),2)
         let c = 2 * atan2(sqrt(a), sqrt(1-a))
-        let d = R * c
+        var d = R * c
+        // convert distance units if necessary
+        
         
         // calculate bearing
+        let y = sin(dlong) * cos(latitude2)
+        let x = cos(latitude1) * sin(latitude2) - sin(latitude1) * cos(latitude2) * cos(dlong)
+        var b = atan2(y,x)
+        b = rad2deg(b)
+        b = (b + 360).truncatingRemainder(dividingBy: 360)
+        // convert bearing units if necessary
         
-        let b = 0
         
         //set data labels
         self.distance.text = "\(String(format: "%.2f",d)) kilometers"
@@ -64,6 +72,10 @@ class ViewController: UIViewController {
     
     func deg2rad(_ deg: Double) -> Double {
         return deg * (Double.pi / 180)
+    }
+    
+    func rad2deg(_ rad: Double) -> Double {
+        return rad * (180 / Double.pi)
     }
 }
 
