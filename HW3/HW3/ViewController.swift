@@ -47,15 +47,23 @@ class ViewController: UIViewController {
         let R: Double = 6371.0
         
         // calculate distance
-        let dlong = latitude2 - latitude1
-        let dlat = longitude1 - longitude2
-        let a = pow(sin(dlat/2),2) + cos(latitude1) * cos(latitude2) * pow(sin(dlong/2),2)
+        let dlong = deg2rad(latitude2 - latitude1)
+        let dlat = deg2rad(longitude1 - longitude2)
+        let a = pow(sin(dlat/2),2) + cos(deg2rad(latitude1)) * cos(deg2rad(latitude2)) * pow(sin(dlong/2),2)
         let c = 2 * atan2(sqrt(a), sqrt(1-a))
         let d = R * c
         
+        // calculate bearing
+        
+        let b = 0
+        
         //set data labels
-        self.distance.text = "\(String(d)) kilometers"
-        self.bearing.text = ""
+        self.distance.text = "\(String(format: "%.2f",d)) kilometers"
+        self.bearing.text = "\(String(format: "%.2f",b)) degrees"
+    }
+    
+    func deg2rad(_ deg: Double) -> Double {
+        return deg * (Double.pi / 180)
     }
 }
 
