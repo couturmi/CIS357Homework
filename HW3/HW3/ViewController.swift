@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import Foundation
 
 class ViewController: UIViewController {
     @IBOutlet weak var latp1: UITextField!
     @IBOutlet weak var latp2: UITextField!
     @IBOutlet weak var longp1: UITextField!
     @IBOutlet weak var longp2: UITextField!
+    @IBOutlet weak var distance: UILabel!
+    @IBOutlet weak var bearing: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,12 +28,34 @@ class ViewController: UIViewController {
     }
 
     @IBAction func clearData(_ sender: UIButton) {
-        // Clear all text fields
+        // Clear all text fields and data labels
         self.latp1.text = ""
         self.latp2.text = ""
         self.longp1.text = ""
         self.longp2.text = ""
+        self.distance.text = ""
+        self.bearing.text = ""
     }
 
+    @IBAction func calculateData(_ sender: Any) {
+        // set values
+        let latitude1:Double = Double(self.longp1.text!)!
+        let latitude2:Double = Double(self.longp2.text!)!
+        let longitude1:Double = Double(self.latp1.text!)!
+        let longitude2:Double = Double(self.latp2.text!)!
+        // set radius of Earth
+        let R: Double = 6371.0
+        
+        // calculate distance
+        let dlong = latitude2 - latitude1
+        let dlat = longitude1 - longitude2
+        let a = pow(sin(dlat/2),2) + cos(latitude1) * cos(latitude2) * pow(sin(dlong/2),2)
+        let c = 2 * atan2(sqrt(a), sqrt(1-a))
+        let d = R * c
+        
+        //set data labels
+        self.distance.text = "\(String(d)) kilometers"
+        self.bearing.text = ""
+    }
 }
 
