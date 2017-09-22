@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         let latitude2:Double = deg2rad(Double(self.latp2.text!)!)
         let longitude1:Double = deg2rad(Double(self.longp1.text!)!)
         let longitude2:Double = deg2rad(Double(self.longp2.text!)!)
-//        // set radius of Earth
+        // set radius of Earth
         let R: Double = 6371.0
         
         // calculate distance
