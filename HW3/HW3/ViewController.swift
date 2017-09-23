@@ -20,7 +20,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let detectTouch = UITapGestureRecognizer(target: self, action: #selector(self.dismissKB))
+        self.view.addGestureRecognizer(detectTouch)
     }
 
     override func didReceiveMemoryWarning() {
@@ -52,7 +53,7 @@ class ViewController: UIViewController {
         let dlong = longitude2 - longitude1
         let a = pow(sin(dlat/2),2) + cos(latitude1) * cos(latitude2) * pow(sin(dlong/2),2)
         let c = 2 * atan2(sqrt(a), sqrt(1-a))
-        var d = R * c
+        let d = R * c
         // convert distance units if necessary
         
         
@@ -77,5 +78,10 @@ class ViewController: UIViewController {
     func rad2deg(_ rad: Double) -> Double {
         return rad * (180 / Double.pi)
     }
+    
+    func dismissKB(){
+        self.view.endEditing(true)
+    }
+    
 }
 
