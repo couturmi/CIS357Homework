@@ -17,15 +17,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var longp2: UITextField!
     @IBOutlet weak var distance: UILabel!
     @IBOutlet weak var bearing: UILabel!
-   // @IBOutlet weak var distUnit: UILabel!
-   // @IBOutlet weak var bearUnit: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         let detectTouch = UITapGestureRecognizer(target: self, action: #selector(self.dismissKB))
         self.view.addGestureRecognizer(detectTouch)
-        //self.distUnit.text = "kilometers"
-        //self.bearUnit.text = "degrees"
     }
 
     override func didReceiveMemoryWarning() {
@@ -76,8 +72,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func cancelButtonPress(segue: UIStoryboardSegue){
-        //self.distanceunitfield.text = "default"
-        //self.bearingunitfield.text = "default"
+        
     }
     
     func deg2rad(_ deg: Double) -> Double {
