@@ -98,7 +98,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Settings"/>
                                 <connections>
-                                    <segue destination="wyW-1J-vkD" kind="show" id="Lfd-g5-zFH"/>
+                                    <segue destination="wyW-1J-vkD" kind="show" identifier="segueToSettings" id="Lfd-g5-zFH"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -147,13 +147,18 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="4Cn-Xt-qf7">
-                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="7HW-Al-7tU"/>
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="7HW-Al-7tU">
+                            <connections>
+                                <segue destination="oar-Mk-WpC" kind="unwind" unwindAction="cancelButtonPressWithSegue:" id="UGd-Ip-MuV"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Save" id="LoX-4f-oMM"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yih-GK-stV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="oar-Mk-WpC" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2326" y="108"/>
+            <point key="canvasLocation" x="1903" y="107"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="9fL-HU-Tgz">
@@ -171,7 +176,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xPL-Wy-fUP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1250" y="107"/>
+            <point key="canvasLocation" x="1006" y="107"/>
         </scene>
     </scenes>
 </document>
