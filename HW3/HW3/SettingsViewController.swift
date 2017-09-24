@@ -12,11 +12,15 @@ class SettingsViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
     
     @IBOutlet weak var distPicker: UIPickerView!
     @IBOutlet weak var bearPicker: UIPickerView!
+    
     @IBOutlet weak var distUnit: UILabel!
     @IBOutlet weak var bearUnit: UILabel!
     
     let dUnits = ["kilometers", "miles"]
     let bUnits = ["degrees", "mils"]
+    
+    var selectedDist: String!
+    var selectedBear: String!
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
@@ -42,34 +46,33 @@ class SettingsViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         if pickerView == distPicker {
-            distUnit.text = dUnits[row]
+            selectedDist = dUnits[row]
+            distUnit.text = selectedDist
         }
         else {
-            bearUnit.text = bUnits[row]
+            selectedBear = bUnits[row]
+            bearUnit.text = selectedBear
         }
     }
+    
+    func returnDistanceUnit() -> String {
+        return selectedDist
+    }
 
+    func returnBearingUnit() -> String {
+        return selectedBear
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        selectedDist = "kilometers"
+        distUnit.text = selectedDist
+        selectedBear = "degrees"
+        bearUnit.text = selectedBear
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

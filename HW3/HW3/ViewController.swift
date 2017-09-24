@@ -17,11 +17,17 @@ class ViewController: UIViewController {
     @IBOutlet weak var longp2: UITextField!
     @IBOutlet weak var distance: UILabel!
     @IBOutlet weak var bearing: UILabel!
+    
+    var distanceUnit: String = ""
+    var bearingUnit: String = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
         let detectTouch = UITapGestureRecognizer(target: self, action: #selector(self.dismissKB))
         self.view.addGestureRecognizer(detectTouch)
+        
+        distanceUnit = "kilometers"
+        bearingUnit = "degrees"
     }
 
     override func didReceiveMemoryWarning() {
@@ -67,14 +73,31 @@ class ViewController: UIViewController {
         b = (b + 360).truncatingRemainder(dividingBy: 360)
         // convert bearing units if necessary
         
+        if distanceUnit == "miles" {
+            d = d * 0.621371
+        }
+        if bearingUnit == "mils" {
+            b = b * 17.777777
+        }
+        
         
         //set data labels
-        self.distance.text = "\(String(format: "%.2f",d)) kilometers"
-        self.bearing.text = "\(String(format: "%.2f",b)) degrees"
+        self.distance.text = "\(String(format: "%.2f",d)) \(distanceUnit)"
+        self.bearing.text = "\(String(format: "%.2f",b)) \(bearingUnit)"
     }
     
     @IBAction func cancelButtonPress(segue: UIStoryboardSegue){
+        //Don't need to do anything
+    }
         
+    @IBAction func unwindFromSettings(_ sender: UIStoryboardSegue){
+        if sender.source is SettingsViewController {
+            if let settingsViewCont = sender.source as? SettingsViewController{
+                distanceUnit = settingsViewCont.selectedDist
+                bearingUnit = settingsViewCont.selectedBear
+            }
+        }
+        calculateData(UIStoryboardSegue.self)
     }
     
     func deg2rad(_ deg: Double) -> Double {

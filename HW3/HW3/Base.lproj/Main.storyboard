@@ -17,7 +17,7 @@
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="ViewContro">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -151,15 +151,15 @@
                                     <outlet property="delegate" destination="aqJ-bk-VKG" id="pdW-wW-HvS"/>
                                 </connections>
                             </pickerView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="kilometers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9m-22-d17">
-                                <rect key="frame" x="194" y="72" width="165" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dRp-rs-ZtJ">
+                                <rect key="frame" x="202" y="100" width="157" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="degrees" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dRp-rs-ZtJ">
-                                <rect key="frame" x="194" y="101" width="165" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FxQ-HA-L2l">
+                                <rect key="frame" x="202" y="71" width="157" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -182,13 +182,17 @@
                                 <segue destination="oar-Mk-WpC" kind="unwind" unwindAction="cancelButtonPressWithSegue:" id="UGd-Ip-MuV"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Save" id="LoX-4f-oMM"/>
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="LoX-4f-oMM">
+                            <connections>
+                                <segue destination="oar-Mk-WpC" kind="unwind" unwindAction="unwindFromSettings:" id="LGw-T6-JuB"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="bearPicker" destination="lRy-8d-9Xy" id="Y58-M7-NC2"/>
                         <outlet property="bearUnit" destination="dRp-rs-ZtJ" id="j3j-Wz-GwG"/>
                         <outlet property="distPicker" destination="YDW-JI-gS2" id="mPS-Qv-FIg"/>
-                        <outlet property="distUnit" destination="d9m-22-d17" id="z7F-cY-68F"/>
+                        <outlet property="distUnit" destination="FxQ-HA-L2l" id="laa-ve-am3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yih-GK-stV" userLabel="First Responder" sceneMemberID="firstResponder"/>
