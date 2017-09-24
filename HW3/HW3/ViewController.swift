@@ -30,6 +30,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func clearData(_ sender: UIButton) {
+        self.dismissKB()
         // Clear all text fields and data labels
         self.latp1.text = ""
         self.latp2.text = ""
@@ -40,6 +41,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func calculateData(_ sender: Any) {
+        self.dismissKB()
         // set values
         let latitude1:Double = deg2rad(Double(self.latp1.text!)!)
         let latitude2:Double = deg2rad(Double(self.latp2.text!)!)
@@ -53,7 +55,7 @@ class ViewController: UIViewController {
         let dlong = longitude2 - longitude1
         let a = pow(sin(dlat/2),2) + cos(latitude1) * cos(latitude2) * pow(sin(dlong/2),2)
         let c = 2 * atan2(sqrt(a), sqrt(1-a))
-        let d = R * c
+        var d = R * c
         // convert distance units if necessary
         
         
