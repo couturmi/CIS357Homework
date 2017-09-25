@@ -37,8 +37,21 @@ class SettingsViewController: UIViewController {
         
         self.distPicker.delegate = self
         self.distPicker.dataSource = self
+        self.distPicker.isHidden = true
         self.bearPicker.delegate = self
         self.bearPicker.dataSource = self
+        self.bearPicker.isHidden = true
+        
+        // add gesture recognizers
+        self.distUnit.isUserInteractionEnabled = true
+        self.bearUnit.isUserInteractionEnabled = true
+        let distancePickerSelected = UITapGestureRecognizer(target: self, action: #selector(self.toggleDistPicker))
+        let bearingPickerSelected = UITapGestureRecognizer(target: self, action: #selector(self.toggleBearPicker))
+        self.distUnit.addGestureRecognizer(distancePickerSelected)
+        self.bearUnit.addGestureRecognizer(bearingPickerSelected)
+        
+        let detectTouch = UITapGestureRecognizer(target: self, action: #selector(self.hidePickers))
+        self.view.addGestureRecognizer(detectTouch)
     }
     
     // cancel button pressed
@@ -66,6 +79,22 @@ class SettingsViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func toggleDistPicker() {
+        self.distPicker.isHidden = !self.distPicker.isHidden
+        self.bearPicker.isHidden = true
+    }
+    
+    func toggleBearPicker() {
+        self.bearPicker.isHidden = !self.bearPicker.isHidden
+        self.distPicker.isHidden = true
+    }
+    
+    func hidePickers() {
+        self.distPicker.isHidden = true
+        self.bearPicker.isHidden = true
+    }
+    
     
 }
 
