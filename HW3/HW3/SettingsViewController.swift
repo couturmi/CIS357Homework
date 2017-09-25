@@ -8,7 +8,11 @@
 
 import UIKit
 
-class SettingsViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+protocol SettingsViewControllerDelegate {
+    func settingsChanged(distanceUnits: String, bearingUnits: String)
+}
+
+class SettingsViewController: UIViewController {
     
     @IBOutlet weak var distPicker: UIPickerView!
     @IBOutlet weak var bearPicker: UIPickerView!
@@ -21,6 +25,51 @@ class SettingsViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
     
     var selectedDist: String!
     var selectedBear: String!
+    
+    var delegate : SettingsViewControllerDelegate?
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        selectedDist = "kilometers"
+        distUnit.text = selectedDist
+        selectedBear = "degrees"
+        bearUnit.text = selectedBear
+        
+        self.distPicker.delegate = self
+        self.distPicker.dataSource = self
+        self.bearPicker.delegate = self
+        self.bearPicker.dataSource = self
+    }
+    
+    // cancel button pressed
+    @IBAction func cancelButtonPress(_ sender: UIBarButtonItem){
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    // save button pressed
+    @IBAction func saveButtonPress(_ sender: UIBarButtonItem){
+        if let d = self.delegate {
+            d.settingsChanged(distanceUnits: selectedDist, bearingUnits: selectedBear)
+        }
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+//    override func viewWillDisappear(_ animated: Bool) {
+//        print("view disappeared")
+//        super.viewWillDisappear(animated)
+//        if let d = self.delegate {
+//            d.settingsChanged(distanceUnits: selectedDist, bearingUnits: selectedBear)
+//        }
+//    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+}
+
+extension SettingsViewController : UIPickerViewDataSource, UIPickerViewDelegate {
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
@@ -55,24 +104,5 @@ class SettingsViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
         }
     }
     
-    func returnDistanceUnit() -> String {
-        return selectedDist
-    }
-
-    func returnBearingUnit() -> String {
-        return selectedBear
-    }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        selectedDist = "kilometers"
-        distUnit.text = selectedDist
-        selectedBear = "degrees"
-        bearUnit.text = selectedBear
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
 }
+

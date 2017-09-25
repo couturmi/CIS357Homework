@@ -10,7 +10,7 @@ import UIKit
 import Foundation
 import CoreLocation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, SettingsViewControllerDelegate {
     @IBOutlet weak var latp1: UITextField!
     @IBOutlet weak var latp2: UITextField!
     @IBOutlet weak var longp1: UITextField!
@@ -34,6 +34,21 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    // implements the settings delegate
+    func settingsChanged(distanceUnits: String, bearingUnits: String){
+        self.distanceUnit = distanceUnits
+        self.bearingUnit = bearingUnits
+        calculateData(UIStoryboardSegue.self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "segueToSettings" {
+            if let dest = segue.destination.childViewControllers[0] as? SettingsViewController {
+                dest.delegate = self
+            }
+        }
+    }
 
     @IBAction func clearData(_ sender: UIButton) {
         self.dismissKB()
@@ -48,6 +63,11 @@ class ViewController: UIViewController {
 
     @IBAction func calculateData(_ sender: Any) {
         self.dismissKB()
+        if self.checkIfEmptyValues() {
+            self.distance.text = "Please enter data in all fields"
+            self.bearing.text = "Please enter data in all fields"
+            return
+        }
         // set values
         let latitude1:Double = deg2rad(Double(self.latp1.text!)!)
         let latitude2:Double = deg2rad(Double(self.latp2.text!)!)
@@ -63,7 +83,9 @@ class ViewController: UIViewController {
         let c = 2 * atan2(sqrt(a), sqrt(1-a))
         var d = R * c
         // convert distance units if necessary
-        
+        if distanceUnit == "miles" {
+            d = d * 0.621371
+        }
         
         // calculate bearing
         let y = sin(dlong) * cos(latitude2)
@@ -72,10 +94,6 @@ class ViewController: UIViewController {
         b = rad2deg(b)
         b = (b + 360).truncatingRemainder(dividingBy: 360)
         // convert bearing units if necessary
-        
-        if distanceUnit == "miles" {
-            d = d * 0.621371
-        }
         if bearingUnit == "mils" {
             b = b * 17.777777
         }
@@ -86,18 +104,20 @@ class ViewController: UIViewController {
         self.bearing.text = "\(String(format: "%.2f",b)) \(bearingUnit)"
     }
     
-    @IBAction func cancelButtonPress(segue: UIStoryboardSegue){
-        //Don't need to do anything
-    }
-        
-    @IBAction func unwindFromSettings(_ sender: UIStoryboardSegue){
-        if sender.source is SettingsViewController {
-            if let settingsViewCont = sender.source as? SettingsViewController{
-                distanceUnit = settingsViewCont.selectedDist
-                bearingUnit = settingsViewCont.selectedBear
-            }
+    func checkIfEmptyValues() -> Bool{
+        if(self.latp1.text! == ""){
+            return true
         }
-        calculateData(UIStoryboardSegue.self)
+        if(self.latp2.text! == ""){
+            return true
+        }
+        if(self.longp1.text! == ""){
+            return true
+        }
+        if(self.longp2.text! == ""){
+            return true
+        }
+        return false
     }
     
     func deg2rad(_ deg: Double) -> Double {
