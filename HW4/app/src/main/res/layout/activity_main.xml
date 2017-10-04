@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,90 +7,87 @@
     tools:context="couturier_crowe.android.hw4.MainActivity">
 
     <EditText
-        android:id="@+id/longitudep1"
-        style="@style/Base.TextAppearance.AppCompat.Small"
-        android:layout_width="174dp"
-        android:layout_height="44dp"
-        android:ems="10"
-        android:hint="Enter longitude for p1"
-        android:inputType="numberDecimal"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/longitudep2"
-        app:layout_constraintLeft_toRightOf="@+id/latitudep1"
-        android:layout_marginLeft="8dp" />
-
-    <EditText
-        android:id="@+id/longitudep2"
-        style="@style/Base.TextAppearance.AppCompat.Small"
-        android:layout_width="174dp"
-        android:layout_height="44dp"
-        android:ems="10"
-        android:hint="Enter longitude for p1"
-        android:inputType="numberDecimal"
-        app:layout_constraintLeft_toRightOf="@+id/latitudep2"
-        android:layout_marginLeft="8dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/clearButton" />
-
-    <EditText
         android:id="@+id/latitudep1"
         style="@style/Base.TextAppearance.AppCompat.Small"
-        android:layout_width="174dp"
-        android:layout_height="44dp"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="13dp"
         android:ems="10"
         android:hint="Enter latitude for p1"
-        android:inputType="numberDecimal"
-        tools:layout_editor_absoluteX="16dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/latitudep2" />
+        android:inputType="numberDecimal|numberSigned" />
 
     <EditText
         android:id="@+id/latitudep2"
         style="@style/Base.TextAppearance.AppCompat.Small"
-        android:layout_width="174dp"
-        android:layout_height="44dp"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/latitudep1"
+        android:layout_below="@+id/latitudep1"
+        android:layout_marginTop="15dp"
         android:ems="10"
         android:hint="Enter latitude for p2"
-        android:inputType="numberDecimal"
-        tools:layout_editor_absoluteX="16dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/calculateButton" />
+        android:inputType="numberDecimal|numberSigned" />
+
+    <EditText
+        android:id="@+id/longitudep1"
+        style="@style/Base.TextAppearance.AppCompat.Small"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/latitudep2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/latitudep1"
+        android:layout_marginEnd="14dp"
+        android:ems="10"
+        android:hint="Enter longitude for p1"
+        android:inputType="numberDecimal|numberSigned" />
+
+    <EditText
+        android:id="@+id/longitudep2"
+        style="@style/Base.TextAppearance.AppCompat.Small"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/latitudep2"
+        android:layout_alignStart="@+id/longitudep1"
+        android:layout_alignTop="@+id/latitudep2"
+        android:ems="10"
+        android:hint="Enter longitude for p2"
+        android:inputType="numberDecimal|numberSigned" />
 
     <Button
         android:id="@+id/calculateButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CALCULATE"
-        app:layout_constraintRight_toLeftOf="@+id/clearButton"
-        android:layout_marginRight="1dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/distanceText" />
+        android:layout_alignStart="@+id/latitudep2"
+        android:layout_below="@+id/latitudep2"
+        android:text="CALCULATE" />
 
     <Button
         android:id="@+id/clearButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CLEAR"
-        tools:layout_editor_absoluteX="120dp"
-        tools:layout_editor_absoluteY="122dp" />
-
-    <TextView
-        android:id="@+id/bearingText"
-        style="@style/Base.TextAppearance.AppCompat.Medium"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Bearing:"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="207dp" />
+        android:layout_below="@+id/latitudep2"
+        android:layout_toEndOf="@+id/calculateButton"
+        android:text="CLEAR" />
 
     <TextView
         android:id="@+id/distanceText"
         style="@style/Base.TextAppearance.AppCompat.Medium"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Distance:"
-        tools:layout_editor_absoluteX="16dp"
-        android:layout_marginBottom="7dp"
-        app:layout_constraintBottom_toTopOf="@+id/bearingText" />
+        android:layout_alignStart="@+id/calculateButton"
+        android:layout_below="@+id/calculateButton"
+        android:text="Distance: " />
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/bearingText"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/distanceText"
+        android:layout_below="@+id/distanceText"
+        android:text="Bearing:" />
+
+</RelativeLayout>
