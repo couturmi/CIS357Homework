@@ -1,18 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="couturier_crowe.android.hw4.MainActivity">
 
-    <TextView
+    <EditText
+        android:id="@+id/latitudep1"
+        style="@style/Base.TextAppearance.AppCompat.Small"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:hint="Enter latitude for p1"
+        android:inputType="numberDecimal|numberSigned" />
+
+    <EditText
+        android:id="@+id/latitudep2"
+        style="@style/Base.TextAppearance.AppCompat.Small"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/latitudep1"
+        android:layout_below="@+id/latitudep1"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Enter latitude for p2"
+        android:inputType="numberDecimal|numberSigned" />
+
+    <EditText
+        android:id="@+id/longitudep1"
+        style="@style/Base.TextAppearance.AppCompat.Small"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/latitudep2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/latitudep1"
+        android:layout_marginEnd="14dp"
+        android:ems="10"
+        android:hint="Enter longitude for p1"
+        android:inputType="numberDecimal|numberSigned" />
+
+    <EditText
+        android:id="@+id/longitudep2"
+        style="@style/Base.TextAppearance.AppCompat.Small"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/latitudep2"
+        android:layout_alignStart="@+id/longitudep1"
+        android:layout_alignTop="@+id/latitudep2"
+        android:ems="10"
+        android:hint="Enter longitude for p2"
+        android:inputType="numberDecimal|numberSigned" />
+
+    <Button
+        android:id="@+id/calculateButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_alignStart="@+id/latitudep2"
+        android:layout_below="@+id/latitudep2"
+        android:text="CALCULATE" />
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/latitudep2"
+        android:layout_toEndOf="@+id/calculateButton"
+        android:text="CLEAR" />
+
+    <TextView
+        android:id="@+id/distanceText"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/calculateButton"
+        android:layout_below="@+id/calculateButton"
+        android:text="Distance: " />
+
+    <TextView
+        android:id="@+id/bearingText"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/distanceText"
+        android:layout_below="@+id/distanceText"
+        android:text="Bearing:" />
+
+</RelativeLayout>
