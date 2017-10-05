@@ -57,7 +57,10 @@ public class MainActivity extends AppCompatActivity {
         });
 
         clear.setOnClickListener(v -> {
-            //clear the EditTexts
+            latitudep1.setText("");
+            latitudep2.setText("");
+            longitudep1.setText("");
+            longitudep2.setText("");
         });
 
     }
