@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">HW4</string>
+    <string name="app_name">GeoCalculator</string>
+    <string name="settings">Settings</string>
 </resources>
