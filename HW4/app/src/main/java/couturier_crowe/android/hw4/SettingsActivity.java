@@ -7,11 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.Spinner;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class SettingsActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
@@ -24,40 +21,53 @@ public class SettingsActivity extends AppCompatActivity implements AdapterView.O
         setContentView(R.layout.activity_settings);
 
         FloatingActionButton saveSettingsButton = (FloatingActionButton) findViewById(R.id.saveSettingsButton);
+        /* //The saveSettingsButton.setOnClickListener further below runs better than this.
+        saveSettingsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.putExtra("distances", distanceSelected);
+                intent.putExtra("degrees", bearingSelected);
+                setResult(CalculateActivity.UNIT_SELECTION, intent);
+
+                finish();
+            }
+        });
+         */
 
         //set up spinners
         Spinner distanceSpinner = (Spinner) findViewById(R.id.distanceSpinner);
         Spinner bearingSpinner = (Spinner) findViewById(R.id.bearingSpinner);
-        distanceSpinner.setOnItemSelectedListener(this);
-        bearingSpinner.setOnItemSelectedListener(this);
 
-        List<String> distanceOptions = new ArrayList<String>();
-        List<String> bearingOptions = new ArrayList<String>();
-        distanceOptions.add("Kilometers");
-        distanceOptions.add("Miles");
-        bearingOptions.add("Degrees");
-        bearingOptions.add("Mils");
-
-        distanceSelected = distanceOptions.get(0);
-        bearingSelected = bearingOptions.get(0);
-
-        ArrayAdapter<String> distanceAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, distanceOptions);
-        ArrayAdapter<String> bearingAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, bearingOptions);
+        ArrayAdapter<CharSequence> distanceAdapter = ArrayAdapter.createFromResource(this, R.array.distances, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> bearingAdapter = ArrayAdapter.createFromResource(this, R.array.bearings, android.R.layout.simple_spinner_item);
         distanceAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         bearingAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
         distanceSpinner.setAdapter(distanceAdapter);
         bearingSpinner.setAdapter(bearingAdapter);
 
         //add button listener
         saveSettingsButton.setOnClickListener(v -> {
             Intent intent = new Intent(SettingsActivity.this, CalculateActivity.class);
+            intent.putExtra("distances", distanceSelected);
+            intent.putExtra("degrees", bearingSelected);
             startActivity(intent);
         });
+
     }
 
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-        String item = parent.getItemAtPosition(position).toString();
+        Spinner spinner = (Spinner) parent;
+        if(spinner.getId() == R.id.distanceSpinner)
+        {
+            distanceSelected = (String) parent.getItemAtPosition(position);
+        }
+        else if(spinner.getId() == R.id.bearingSpinner)
+        {
+            bearingSelected = (String) parent.getItemAtPosition(position);
+        }
     }
 
     @Override

@@ -7,11 +7,17 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
 public class CalculateActivity extends AppCompatActivity {
+
+    public static final int UNIT_SELECTION = 1;
+
+    String distUnit = "kilometers";
+    String bearUnit = "degrees";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +36,25 @@ public class CalculateActivity extends AppCompatActivity {
 
         TextView distance = (TextView) findViewById(R.id.distanceText);
         TextView bearing = (TextView) findViewById(R.id.bearingText);
+
+ /*     // Trying to follow what was shown in the lectures.
+        // Using "toolbar" instead of the button that was used in the example does not seem right,
+        // but I'm not sure what else I should try.
+        toolbar.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(CalculateActivity.this, SettingsActivity.class);
+                startActivityForResult(intent, UNIT_SELECTION);
+
+                Intent payload = getIntent();
+                if(payload.hasExtra("distances")) {
+                    distUnit = payload.getStringExtra("distances");
+                }
+                if(payload.hasExtra("bearings")) {
+                    bearUnit = payload.getStringExtra("bearings");
+                }
+            }
+        });*/
 
         calculate.setOnClickListener(v -> {
             float[] results = new float[2];
@@ -54,10 +79,28 @@ public class CalculateActivity extends AppCompatActivity {
             java.math.BigDecimal bearValue = new java.math.BigDecimal(Float.toString(results[1]));
             bearValue = bearValue.setScale(2, java.math.BigDecimal.ROUND_HALF_UP);
 
-            String strDist = Float.toString(distValue.floatValue());
-            distance.setText("Distance: " + strDist + " kilometers");
-            String strBear = Float.toString(bearValue.floatValue());
-            bearing.setText("Bearing: " + strBear + " degrees");
+
+
+            if(distUnit == "miles") {
+                float dVal = distValue.floatValue();
+                dVal = dVal * (float)0.6;
+                String strDist = Float.toString(dVal);
+                distance.setText("Distance: " + strDist + " miles");
+            }
+            if(distUnit == "kilometers") {
+                String strDist = Float.toString(distValue.floatValue());
+                distance.setText("Distance: " + strDist + " kilometers");
+            }
+            if(bearUnit == "mils") {
+                float bVal = bearValue.floatValue();
+                bVal = bVal * (float)17.77;
+                String strBear = Float.toString(bVal);
+                bearing.setText("Bearing: " + strBear + " mils");
+            }
+            if(bearUnit == "degrees") {
+                String strBear = Float.toString(bearValue.floatValue());
+                bearing.setText("Bearing: " + strBear + " degrees");
+            }
         });
 
         clear.setOnClickListener(v -> {
