@@ -7,7 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -19,6 +18,14 @@ public class CalculateActivity extends AppCompatActivity {
     String distUnit = "kilometers";
     String bearUnit = "degrees";
 
+    EditText latitudep1;
+    EditText latitudep2;
+    EditText longitudep1;
+    EditText longitudep2;
+
+    TextView distance;
+    TextView bearing;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,82 +33,18 @@ public class CalculateActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        EditText latitudep1 = (EditText) findViewById(R.id.latitudep1);
-        EditText latitudep2 = (EditText) findViewById(R.id.latitudep2);
-        EditText longitudep1 = (EditText) findViewById(R.id.longitudep1);
-        EditText longitudep2 = (EditText) findViewById(R.id.longitudep2);
+        latitudep1 = (EditText) findViewById(R.id.latitudep1);
+        latitudep2 = (EditText) findViewById(R.id.latitudep2);
+        longitudep1 = (EditText) findViewById(R.id.longitudep1);
+        longitudep2 = (EditText) findViewById(R.id.longitudep2);
 
         Button calculate = (Button) findViewById(R.id.calculateButton);
         Button clear = (Button) findViewById(R.id.clearButton);
 
-        TextView distance = (TextView) findViewById(R.id.distanceText);
-        TextView bearing = (TextView) findViewById(R.id.bearingText);
+        distance = (TextView) findViewById(R.id.distanceText);
+        bearing = (TextView) findViewById(R.id.bearingText);
 
- /*     // Trying to follow what was shown in the lectures.
-        // Using "toolbar" instead of the button that was used in the example does not seem right,
-        // but I'm not sure what else I should try.
-        toolbar.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(CalculateActivity.this, SettingsActivity.class);
-                startActivityForResult(intent, UNIT_SELECTION);
-
-                Intent payload = getIntent();
-                if(payload.hasExtra("distances")) {
-                    distUnit = payload.getStringExtra("distances");
-                }
-                if(payload.hasExtra("bearings")) {
-                    bearUnit = payload.getStringExtra("bearings");
-                }
-            }
-        });*/
-
-        calculate.setOnClickListener(v -> {
-            float[] results = new float[2];
-            //results[0] is distance in meters
-            //results[1] is bearing in degrees
-
-            String strLatP1 = latitudep1.getText().toString();
-            String strLatP2 = latitudep2.getText().toString();
-            String strLongP1 = longitudep1.getText().toString();
-            String strLongP2 = longitudep2.getText().toString();
-
-            double latP1 = Double.parseDouble(strLatP1);
-            double latP2 = Double.parseDouble(strLatP2);
-            double longP1 = Double.parseDouble(strLongP1);
-            double longP2 = Double.parseDouble(strLongP2);
-
-            Location.distanceBetween(latP1, longP1, latP2, longP2, results);
-
-            java.math.BigDecimal distValue = new java.math.BigDecimal(Float.toString((results[0] / 1000)));
-            distValue = distValue.setScale(2, java.math.BigDecimal.ROUND_HALF_UP);
-
-            java.math.BigDecimal bearValue = new java.math.BigDecimal(Float.toString(results[1]));
-            bearValue = bearValue.setScale(2, java.math.BigDecimal.ROUND_HALF_UP);
-
-
-
-            if(distUnit == "miles") {
-                float dVal = distValue.floatValue();
-                dVal = dVal * (float)0.6;
-                String strDist = Float.toString(dVal);
-                distance.setText("Distance: " + strDist + " miles");
-            }
-            if(distUnit == "kilometers") {
-                String strDist = Float.toString(distValue.floatValue());
-                distance.setText("Distance: " + strDist + " kilometers");
-            }
-            if(bearUnit == "mils") {
-                float bVal = bearValue.floatValue();
-                bVal = bVal * (float)17.77;
-                String strBear = Float.toString(bVal);
-                bearing.setText("Bearing: " + strBear + " mils");
-            }
-            if(bearUnit == "degrees") {
-                String strBear = Float.toString(bearValue.floatValue());
-                bearing.setText("Bearing: " + strBear + " degrees");
-            }
-        });
+        calculate.setOnClickListener(view -> this.makeCalculations());
 
         clear.setOnClickListener(v -> {
             latitudep1.setText("");
@@ -122,8 +65,83 @@ public class CalculateActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         if(item.getItemId() == R.id.settings) {
             Intent intent = new Intent(CalculateActivity.this, SettingsActivity.class);
-            startActivity(intent);
-            finish();
+            startActivityForResult(intent, UNIT_SELECTION);
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if(resultCode == UNIT_SELECTION) {
+            distUnit = data.getStringExtra("distance");
+            bearUnit = data.getStringExtra("bearing");
+            makeCalculations();
+            System.out.println("DIST: "+distUnit);
+        }
+    }
+
+    public void makeCalculations() {
+        if(anyInputsEmpty()){
+            distance.setText("Distance: Please enter data in all fields");
+            bearing.setText("Bearing: Please enter data in all fields");
+            return;
+        }
+        float[] results = new float[2];
+        //results[0] is distance in meters
+        //results[1] is bearing in degrees
+
+        String strLatP1 = latitudep1.getText().toString();
+        String strLatP2 = latitudep2.getText().toString();
+        String strLongP1 = longitudep1.getText().toString();
+        String strLongP2 = longitudep2.getText().toString();
+
+        double latP1 = Double.parseDouble(strLatP1);
+        double latP2 = Double.parseDouble(strLatP2);
+        double longP1 = Double.parseDouble(strLongP1);
+        double longP2 = Double.parseDouble(strLongP2);
+
+        Location.distanceBetween(latP1, longP1, latP2, longP2, results);
+
+        java.math.BigDecimal distValue = new java.math.BigDecimal(Float.toString((results[0] / 1000)));
+        distValue = distValue.setScale(2, java.math.BigDecimal.ROUND_HALF_UP);
+
+        java.math.BigDecimal bearValue = new java.math.BigDecimal(Float.toString(results[1]));
+        bearValue = bearValue.setScale(2, java.math.BigDecimal.ROUND_HALF_UP);
+
+        if(distUnit.equals("miles")) {
+            float dVal = distValue.floatValue();
+            dVal = dVal * (float)0.6;
+            String strDist = Float.toString(dVal);
+            distance.setText("Distance: " + strDist + " miles");
+        }
+        else if(distUnit.equals("kilometers")) {
+            String strDist = Float.toString(distValue.floatValue());
+            distance.setText("Distance: " + strDist + " kilometers");
+        }
+        if(bearUnit.equals("mils")) {
+            float bVal = bearValue.floatValue();
+            bVal = bVal * (float)17.77;
+            String strBear = Float.toString(bVal);
+            bearing.setText("Bearing: " + strBear + " mils");
+        }
+        else if(bearUnit.equals("degrees")) {
+            String strBear = Float.toString(bearValue.floatValue());
+            bearing.setText("Bearing: " + strBear + " degrees");
+        }
+    }
+
+    private boolean anyInputsEmpty() {
+        if(latitudep1.getText() == null || latitudep1.getText().toString().matches("")) {
+            return true;
+        }
+        if(latitudep2.getText() == null || latitudep2.getText().toString().matches("")) {
+            return true;
+        }
+        if(longitudep1.getText() == null || longitudep1.getText().toString().matches("")) {
+            return true;
+        }
+        if(longitudep2.getText() == null || longitudep2.getText().toString().matches("")) {
             return true;
         }
         return false;
