@@ -1,10 +1,13 @@
 package couturier_crowe.android.hw4;
 
+import android.content.Intent;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 
 import java.util.ArrayList;
@@ -20,6 +23,9 @@ public class SettingsActivity extends AppCompatActivity implements AdapterView.O
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
 
+        FloatingActionButton saveSettingsButton = (FloatingActionButton) findViewById(R.id.saveSettingsButton);
+
+        //set up spinners
         Spinner distanceSpinner = (Spinner) findViewById(R.id.distanceSpinner);
         Spinner bearingSpinner = (Spinner) findViewById(R.id.bearingSpinner);
         distanceSpinner.setOnItemSelectedListener(this);
@@ -41,6 +47,12 @@ public class SettingsActivity extends AppCompatActivity implements AdapterView.O
         bearingAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         distanceSpinner.setAdapter(distanceAdapter);
         bearingSpinner.setAdapter(bearingAdapter);
+
+        //add button listener
+        saveSettingsButton.setOnClickListener(v -> {
+            Intent intent = new Intent(SettingsActivity.this, CalculateActivity.class);
+            startActivity(intent);
+        });
     }
 
     @Override
