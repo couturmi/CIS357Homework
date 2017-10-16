@@ -23,6 +23,9 @@ class ViewController: UIViewController, SettingsViewControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.view.backgroundColor = BACKGROUND_COLOR
+        
         let detectTouch = UITapGestureRecognizer(target: self, action: #selector(self.dismissKB))
         self.view.addGestureRecognizer(detectTouch)
         
