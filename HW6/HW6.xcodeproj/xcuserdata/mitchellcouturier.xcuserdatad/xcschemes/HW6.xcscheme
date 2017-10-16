@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E8C4E8061F71DA900085FAFA"
-               BuildableName = "HW3.app"
-               BlueprintName = "HW3"
-               ReferencedContainer = "container:HW3.xcodeproj">
+               BuildableName = "HW6.app"
+               BlueprintName = "HW6"
+               ReferencedContainer = "container:HW6.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,26 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E8C4E81A1F71DA900085FAFA"
-               BuildableName = "HW3Tests.xctest"
-               BlueprintName = "HW3Tests"
-               ReferencedContainer = "container:HW3.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E8C4E8251F71DA900085FAFA"
-               BuildableName = "HW3UITests.xctest"
-               BlueprintName = "HW3UITests"
-               ReferencedContainer = "container:HW3.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
@@ -95,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E8C4E8061F71DA900085FAFA"
-            BuildableName = "HW3.app"
-            BlueprintName = "HW3"
-            ReferencedContainer = "container:HW3.xcodeproj">
+            BuildableName = "HW6.app"
+            BlueprintName = "HW6"
+            ReferencedContainer = "container:HW6.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
