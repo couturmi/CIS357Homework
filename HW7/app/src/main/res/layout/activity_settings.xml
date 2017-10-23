@@ -6,55 +6,69 @@
     android:layout_height="match_parent"
     tools:context="couturier_crowe.android.hw4.SettingsActivity">
 
-    <TextView
-        android:id="@+id/bearingUnitsLabel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Bearing Units"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="163dp"
-        tools:layout_editor_absoluteY="16dp"
-        android:layout_marginTop="12dp"
-        android:layout_below="@+id/distanceSpinner"
-        android:layout_centerHorizontal="true" />
 
-    <TextView
-        android:id="@+id/distanceUnitsLabel"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="12dp"
-        android:text="Distance Units"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="163dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:orientation="vertical"
+        android:paddingEnd="8dp"
+        android:paddingStart="8dp">
 
-    <Spinner
-        android:id="@+id/bearingSpinner"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="13dp"
-        android:layout_below="@+id/bearingUnitsLabel"
-        android:layout_alignStart="@+id/distanceSpinner" />
+        <TextView
+            android:id="@+id/distanceUnitsLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:text="Distance Units"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="163dp"
+            tools:layout_editor_absoluteY="16dp" />
 
-    <Spinner
-        android:id="@+id/distanceSpinner"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/distanceUnitsLabel"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="13dp" />
+        <Spinner
+            android:id="@+id/distanceSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/distanceUnitsLabel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp" />
+
+        <TextView
+            android:id="@+id/bearingUnitsLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/distanceSpinner"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:text="Bearing Units"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="163dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Spinner
+            android:id="@+id/bearingSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/distanceSpinner"
+            android:layout_below="@+id/bearingUnitsLabel"
+            android:layout_marginTop="13dp" />
+
+    </LinearLayout>
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/saveSettingsButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/bearingSpinner"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="18dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
         android:clickable="true"
         android:tint="@android:color/white"
         app:fabSize="mini"
         app:srcCompat="@drawable/ic_check_black_24dp" />
+
 </RelativeLayout>
