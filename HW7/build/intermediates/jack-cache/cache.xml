@@ -2,208 +2,130 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\mitchcout\.android\build-cache\a12261f1626fdcd295c97ebebee8a01d196558d8\output\jars\libs\internal_impl-24.2.1.jar"
-        revision="25.0.0"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\internal_impl-24.2.1-55ff6fe115be63b78946ccb78629b893faf76145.jar" />
-    </item>
-    <item
-        jar="H:\Users\mitchcout\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
-        revision="25.0.0"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\support-annotations-24.2.1-6d1a379ae8ccd257f57c508232ecea8d1195bea8.jar" />
-    </item>
-    <item
-        jar="C:\Users\mitchcout\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\2.0.1\516c03b21d50a644d538de0f0369c620989cd8f0\jsr305-2.0.1.jar"
-        revision="25.0.0"
-        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\jsr305-2.0.1-1c1e20692750876f9c70483fc11be20334434eff.jar" />
-    </item>
-    <item
-        jar="C:\Users\mitchcout\.gradle\caches\modules-2\files-2.1\com.squareup\javawriter\2.1.1\67ff45d9ae02e583d0f9b3432a5ebbe05c30c966\javawriter-2.1.1.jar"
-        revision="25.0.0"
-        sha1="67ff45d9ae02e583d0f9b3432a5ebbe05c30c966">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\javawriter-2.1.1-395c850f86d795745c731137a219a12c239e4e84.jar" />
-    </item>
-    <item
-        jar="C:\Users\mitchcout\.android\build-cache\78ce7aca49cf9b53ef5caff10528f61a81500584\output\jars\classes.jar"
-        revision="25.0.0"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-e4d563bc51877d26b31ac47b23c120daa3392ec7.jar" />
-    </item>
-    <item
-        jar="C:\Users\mitchcout\.gradle\caches\modules-2\files-2.1\junit\junit\4.12\2973d150c0dc1fefe998f834810d68f278ea58ec\junit-4.12.jar"
-        revision="25.0.0"
-        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\junit-4.12-09ae6701465bdf28c6baa0bdf25845ec384b8f5e.jar" />
-    </item>
-    <item
-        jar="C:\Users\mitchcout\.android\build-cache\392350e9e39abf168cf8a62528bbe6ac1d7d3edc\output\jars\classes.jar"
-        revision="25.0.0"
-        sha1="905f3e63973d47fedf2d945fa31d8c0f0c98816e">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\classes-a86b97c15c4a6b9fad38da6af0cf87609e4498a7.jar" />
-    </item>
-    <item
-        jar="C:\Users\mitchcout\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-integration\1.3\5de0c73fef18917cd85d0ab70bb23818685e4dfd\hamcrest-integration-1.3.jar"
-        revision="25.0.0"
-        sha1="5de0c73fef18917cd85d0ab70bb23818685e4dfd">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\hamcrest-integration-1.3-e90edec7ba549e2cf80f074dc92344dae9158322.jar" />
-    </item>
-    <item
-        jar="H:\Users\mitchcout\AppData\Local\Android\sdk\platforms\android-24\android.jar"
-        revision="25.0.0"
-        sha1="d49cc0972df7adf495d3ad3d0cf71c0ec517ace4">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\android-cf3c7e81c9537016e58fbe90e6f191aa4258ab32.jar" />
-    </item>
-    <item
-        jar="C:\Users\mitchcout\.android\build-cache\0a31c68676ee8c2a517cc0057075209ed40efd4e\output\jars\libs\internal_impl-24.2.1.jar"
-        revision="25.0.0"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\internal_impl-24.2.1-bd816d753ebcd4db7d0d938e63d8777fbec5e9b3.jar" />
-    </item>
-    <item
-        jar="H:\Users\mitchcout\AppData\Local\Android\sdk\platforms\android-24\optional\org.apache.http.legacy.jar"
-        revision="25.0.0"
-        sha1="fb7023e781abb70ed1b0442eb611fbed295cae84">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\org.apache.http.legacy-cb4ffc690f126774e76d56eb6fbe5cc8d3f3fcbd.jar" />
-    </item>
-    <item
-        jar="C:\Users\mitchcout\.android\build-cache\a12261f1626fdcd295c97ebebee8a01d196558d8\output\jars\classes.jar"
-        revision="25.0.0"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-58d95ca017bf9b12a337d38098cba79e9bade5e1.jar" />
-    </item>
-    <item
-        jar="C:\Users\mitchcout\.android\build-cache\e760d895fe5ddf044088e05cddcca191845def58\output\jars\classes.jar"
-        revision="25.0.0"
-        sha1="796f9229948e907471c5595fbe94655ccf03ff73">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\classes-4926b8f5e9ae4fc39287b3f0c8c4e4a7d9eb4bbf.jar" />
-    </item>
-    <item
-        jar="C:\Users\mitchcout\.android\build-cache\99d2dc8028e7899c1b0d9403db0c3202c40bf135\output\jars\classes.jar"
-        revision="25.0.0"
-        sha1="a890ee8445927649d9ed50f625a315d8758688be">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\classes-9e2efe63c25a5684ea5ebc6dae15bbbea7e638d2.jar" />
-    </item>
-    <item
-        jar="C:\Users\mitchcout\.android\build-cache\7763484662a63badc2e3c3e48f466c8d142a81cf\output\jars\classes.jar"
-        revision="25.0.0"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-981813a8b489a6d3decc330ca7368e210ecaa59d.jar" />
-    </item>
-    <item
-        jar="C:\Users\mitchcout\.android\build-cache\e970b0048eb4c3e18927495984e0f83adb840ac4\output\jars\classes.jar"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-662dd4db9293a928f813ba6b9ba513d015706282.jar" />
-    </item>
-    <item
-        jar="C:\Users\mitchcout\.android\build-cache\22e66d5fd56279d92efa42ea4bab372aa7c14a04\output\jars\classes.jar"
-        revision="25.0.0"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-87a11b8a334da973aca160d339924f5de7b25d6d.jar" />
-    </item>
-    <item
-        jar="C:\Users\mitchcout\.gradle\caches\modules-2\files-2.1\javax.annotation\javax.annotation-api\1.2\479c1e06db31c432330183f5cae684163f186146\javax.annotation-api-1.2.jar"
-        revision="25.0.0"
-        sha1="479c1e06db31c432330183f5cae684163f186146">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\javax.annotation-api-1.2-2710593be6c221762363683d01d9e0190888634c.jar" />
-    </item>
-    <item
-        jar="C:\Users\mitchcout\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar"
-        revision="25.0.0"
-        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\hamcrest-core-1.3-937c5ebb49a628675e9dbaf79eb56849c17dfeda.jar" />
-    </item>
-    <item
-        jar="C:\Users\mitchcout\.android\build-cache\9ae055bc3725f0dc24aafaf65746105815cc02ff\output\jars\classes.jar"
-        revision="25.0.0"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-e4962f862edd0d5e04d89ce7ae478dd5c8794f92.jar" />
-    </item>
-    <item
-        jar="C:\Users\mitchcout\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
-        revision="25.0.0"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\javax.inject-1-f31624563537d284a968da48c4a5ef4f0d2953e8.jar" />
-    </item>
-    <item
-        jar="C:\Users\mitchcout\.android\build-cache\2e1ff4558bf05f0d7093aaa060a60092b2ca8c55\output\jars\libs\internal_impl-24.2.1.jar"
-        revision="25.0.0"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\internal_impl-24.2.1-9c6023359a3056a67ad51687155938a6ea1ac529.jar" />
-    </item>
-    <item
-        jar="C:\Users\mitchcout\.android\build-cache\b77b3748e2d43c6a30cb4cc15579d894f9b4d240\output\jars\classes.jar"
-        revision="25.0.0"
-        sha1="7e11799d8a26bfa5d48acafe012ee5545b9bf468">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\classes-7dd6d540d23e07626a836c10002d897ba1ddb3c8.jar" />
-    </item>
-    <item
-        jar="C:\Users\mitchcout\.android\build-cache\3adc0c48416b41bca4a37f9162c13b54490c0fa9\output\jars\classes.jar"
-        revision="25.0.0"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-4d93d2a762efbe940ba023feb2b44b36c123ed61.jar" />
-    </item>
-    <item
-        jar="C:\Users\mitchcout\.android\build-cache\6246c692f8ae4842fa03f3aaaf00626a1fc05c7a\output\jars\classes.jar"
-        revision="25.0.0"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-7dc0a0d603d98ca81d066d89c5ef73d8d09247e2.jar" />
-    </item>
-    <item
-        jar="C:\Users\mitchcout\.android\build-cache\2e1ff4558bf05f0d7093aaa060a60092b2ca8c55\output\jars\classes.jar"
+        jar="C:\Users\kitty92cats\.android\build-cache\e88aab9bf5315ed69e1af40fde83aee035e48f87\output\jars\classes.jar"
         revision="25.0.0"
         sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-dd33fd982a70c02863b551970362c591dff747d4.jar" />
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-bffb40ed8b00208c1c6c4e07029039d131e252e0.jar" />
     </item>
     <item
-        jar="C:\Users\mitchcout\.android\build-cache\e75d005503bf6837ee23c035363b69503d437640\output\jars\classes.jar"
+        jar="C:\Users\kitty92cats\.android\build-cache\ace9118103b98f564e9447c3a63a70a95dae73e0\output\jars\classes.jar"
         revision="25.0.0"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-8ef3d160d1641f139069aebadc76f30e5d51ad4b.jar" />
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-b592666762dfe4b69e2650245cfdd4625521f4f4.jar" />
     </item>
     <item
-        jar="C:\Users\mitchcout\.android\build-cache\6246c692f8ae4842fa03f3aaaf00626a1fc05c7a\output\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\kitty92cats\.android\build-cache\94ac069c7e662c38f1c252c1204f2a72f6a77041\output\jars\classes.jar"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-989a1260374660ab67ee85ded05f92c6d43b83bf.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\.android\build-cache\824b91800e6d5ac3b4ceef734f131fa0a774bdc3\output\jars\libs\internal_impl-24.2.1.jar"
         revision="25.0.0"
         sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\internal_impl-24.2.1-8f40b5e032ae4624eadd6b01c72f5a16a33ff08d.jar" />
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\internal_impl-24.2.1-237a1ba83623ff9ec583d4bc495d378c118b8233.jar" />
     </item>
     <item
-        jar="C:\Users\mitchcout\.android\build-cache\e5341c052dad86f972a34b29850548e19d9bf946\output\jars\classes.jar"
+        jar="C:\Users\kitty92cats\.android\build-cache\9daf1e56b6a84385c5272c0180513bc6f9956f41\output\jars\libs\internal_impl-24.2.1.jar"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\internal_impl-24.2.1-4e75249752d5afe4987e8e3b1b24a93d0ef6af67.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\.android\build-cache\22a20085302426b63dce235df20e41d196abe7ad\output\jars\classes.jar"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-6ff8838e231507bbdb2b026e22082678af124bcb.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\.android\build-cache\e88aab9bf5315ed69e1af40fde83aee035e48f87\output\jars\libs\internal_impl-24.2.1.jar"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\internal_impl-24.2.1-d69553248bc4c347ea4759e9d1953f5ee5aa0cf5.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\AppData\Local\Android\Sdk\platforms\android-24\optional\org.apache.http.legacy.jar"
+        revision="25.0.0"
+        sha1="fb7023e781abb70ed1b0442eb611fbed295cae84">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\org.apache.http.legacy-aefd1394309f436f30e77c48591ca69044249fe3.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\.android\build-cache\685c39a2c3809a6fd18e293e899d6a15b6c73a6e\output\jars\libs\internal_impl-24.2.1.jar"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\internal_impl-24.2.1-11f7ab0607eaaa58d3b7bc3f84f908292ce7dd2c.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\.android\build-cache\a978fe713f377f16d7254fa08fc3a8c2708af9a2\output\jars\classes.jar"
+        revision="25.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-92473adc0d4498211bb4f0e09a8afa689f037438.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\.android\build-cache\685c39a2c3809a6fd18e293e899d6a15b6c73a6e\output\jars\classes.jar"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-34eb291d581b9603730a3a6a5d6eaf54a930ea69.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        revision="25.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\support-annotations-24.2.1-0935e1cb3b3415103aa0d8f7c40b1977d4937fa9.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\.android\build-cache\ed78449eed13a626b7a6f412d92893978925ec24\output\jars\classes.jar"
         revision="25.0.0"
         sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-dcdaab070eaab2f2d61b6a6d9a86a59a54781d52.jar" />
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-4cf6dbc3746ce2d9bf367cd8a09746bd46a19d55.jar" />
     </item>
     <item
-        jar="C:\Users\mitchcout\.android\build-cache\5b3ee6520019710f38539330a52a1dd053ac8058\output\jars\classes.jar"
+        jar="C:\Users\kitty92cats\.android\build-cache\cebabdf22e5582d5f840a011a77b080236aefe2e\output\jars\classes.jar"
         revision="25.0.0"
-        sha1="d115b0e9e1501135fe91254ba884fcbd83d374c0">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\classes-2bac0d042a50811ff19d55317715392430681469.jar" />
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-55783a5edded5365b792f74d67b70c4c0d23d524.jar" />
     </item>
     <item
-        jar="C:\Users\mitchcout\.android\build-cache\22e66d5fd56279d92efa42ea4bab372aa7c14a04\output\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\kitty92cats\.android\build-cache\ea25674cfb13e8ace5df8c36689d65db32251086\output\jars\classes.jar"
         revision="25.0.0"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\internal_impl-24.2.1-777d83923a581cf93abdfe4f30ef5dd15e1292ce.jar" />
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-a9d67698465d1abb0a0523b2cedef1053394ebbf.jar" />
     </item>
     <item
-        jar="H:\Users\mitchcout\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        revision="25.0.0"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\constraint-layout-solver-1.0.2-61906033b46081a089ad36e4368e759ef8653335.jar" />
-    </item>
-    <item
-        jar="C:\Users\mitchcout\.android\build-cache\0a31c68676ee8c2a517cc0057075209ed40efd4e\output\jars\classes.jar"
+        jar="C:\Users\kitty92cats\.android\build-cache\9daf1e56b6a84385c5272c0180513bc6f9956f41\output\jars\classes.jar"
         revision="25.0.0"
         sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-c8e9e7ee65b17f39c2f848e4521224976f3ed371.jar" />
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-5ec9880b51d0a6af07ada6dd6b0dc42b8d97980f.jar" />
     </item>
     <item
-        jar="C:\Users\mitchcout\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-library\1.3\4785a3c21320980282f9f33d0d1264a69040538f\hamcrest-library-1.3.jar"
+        jar="C:\Users\kitty92cats\.android\build-cache\6944217a22097af23a4efc6c4198d1932eed1e45\output\jars\classes.jar"
         revision="25.0.0"
-        sha1="4785a3c21320980282f9f33d0d1264a69040538f">
-        <dex dex="H:\Users\mitchcout\Code\git\CIS-357-Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\androidTest\debug\jars\8000\1f\hamcrest-library-1.3-155b4ee10bcfa01e0ccefa44a6226312b5b00525.jar" />
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-11fc76dd29b89116a43c7dd1feb70d6ff6b797c8.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\.android\build-cache\824b91800e6d5ac3b4ceef734f131fa0a774bdc3\output\jars\classes.jar"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-2b5317279c0dbc3c829f922c0bf7a5bf35749f8e.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\AppData\Local\Android\Sdk\platforms\android-24\android.jar"
+        revision="25.0.0"
+        sha1="d49cc0972df7adf495d3ad3d0cf71c0ec517ace4">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\android-ccac73c967ea7563ed276b6c03c33f2f3a87d25b.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\.android\build-cache\ace9118103b98f564e9447c3a63a70a95dae73e0\output\jars\libs\internal_impl-24.2.1.jar"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\internal_impl-24.2.1-879ab78b264cfd100411ccf065b8ab00ed1fca00.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\constraint-layout-solver-1.0.2-a36a5253b795abdf4f1c7739c254f46ed2f0ccef.jar" />
     </item>
 
 </items>
