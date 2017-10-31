@@ -56,7 +56,7 @@ class SettingsViewController: UIViewController {
     
     // cancel button pressed
     @IBAction func cancelButtonPress(_ sender: UIBarButtonItem){
-        self.dismiss(animated: true, completion: nil)
+        _=self.navigationController?.popViewController(animated: true)
     }
     
     // save button pressed
@@ -64,7 +64,7 @@ class SettingsViewController: UIViewController {
         if let d = self.delegate {
             d.settingsChanged(distanceUnits: selectedDist, bearingUnits: selectedBear)
         }
-        self.dismiss(animated: true, completion: nil)
+        _=self.navigationController?.popViewController(animated: true)
     }
     
 //    override func viewWillDisappear(_ animated: Bool) {

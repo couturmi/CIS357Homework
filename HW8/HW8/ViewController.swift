@@ -20,6 +20,8 @@ class ViewController: UIViewController, SettingsViewControllerDelegate {
     
     var distanceUnit: String = ""
     var bearingUnit: String = ""
+    
+    var entries : [LocationLookup] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,6 +53,11 @@ class ViewController: UIViewController, SettingsViewControllerDelegate {
                 dest.delegate = self
             }
         }
+        
+        if segue.identifier == "historySegue" {
+            let historyTVC = segue.destination as! HistoryTableViewController
+            historyTVC.entries = entries
+        }
     }
 
     @IBAction func clearData(_ sender: UIButton) {
@@ -72,6 +79,12 @@ class ViewController: UIViewController, SettingsViewControllerDelegate {
             return
         }
         // set values
+        let lat1:Double = Double(self.latp1.text!)!
+        let lat2:Double = Double(self.latp2.text!)!
+        let lng1:Double = Double(self.longp1.text!)!
+        let lng2:Double = Double(self.longp2.text!)!
+        entries.append(LocationLookup(origLat: lat1, origLng: lng1, destLat: lat2, destLng: lng2, timestamp: Date()))
+        
         let latitude1:Double = deg2rad(Double(self.latp1.text!)!)
         let latitude2:Double = deg2rad(Double(self.latp2.text!)!)
         let longitude1:Double = deg2rad(Double(self.longp1.text!)!)
@@ -105,6 +118,8 @@ class ViewController: UIViewController, SettingsViewControllerDelegate {
         //set data labels
         self.distance.text = "\(String(format: "%.2f",d)) \(distanceUnit)"
         self.bearing.text = "\(String(format: "%.2f",b)) \(bearingUnit)"
+        
+
     }
     
     func checkIfEmptyValues() -> Bool{
