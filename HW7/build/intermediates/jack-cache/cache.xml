@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\kitty92cats\.android\build-cache\e88aab9bf5315ed69e1af40fde83aee035e48f87\output\jars\classes.jar"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-bffb40ed8b00208c1c6c4e07029039d131e252e0.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\.android\build-cache\ace9118103b98f564e9447c3a63a70a95dae73e0\output\jars\classes.jar"
+        revision="25.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-b592666762dfe4b69e2650245cfdd4625521f4f4.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\.android\build-cache\94ac069c7e662c38f1c252c1204f2a72f6a77041\output\jars\classes.jar"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-989a1260374660ab67ee85ded05f92c6d43b83bf.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\.android\build-cache\824b91800e6d5ac3b4ceef734f131fa0a774bdc3\output\jars\libs\internal_impl-24.2.1.jar"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\internal_impl-24.2.1-237a1ba83623ff9ec583d4bc495d378c118b8233.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\.android\build-cache\9daf1e56b6a84385c5272c0180513bc6f9956f41\output\jars\libs\internal_impl-24.2.1.jar"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\internal_impl-24.2.1-4e75249752d5afe4987e8e3b1b24a93d0ef6af67.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\.android\build-cache\22a20085302426b63dce235df20e41d196abe7ad\output\jars\classes.jar"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-6ff8838e231507bbdb2b026e22082678af124bcb.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\.android\build-cache\e88aab9bf5315ed69e1af40fde83aee035e48f87\output\jars\libs\internal_impl-24.2.1.jar"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\internal_impl-24.2.1-d69553248bc4c347ea4759e9d1953f5ee5aa0cf5.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\AppData\Local\Android\Sdk\platforms\android-24\optional\org.apache.http.legacy.jar"
+        revision="25.0.0"
+        sha1="fb7023e781abb70ed1b0442eb611fbed295cae84">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\org.apache.http.legacy-aefd1394309f436f30e77c48591ca69044249fe3.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\.android\build-cache\685c39a2c3809a6fd18e293e899d6a15b6c73a6e\output\jars\libs\internal_impl-24.2.1.jar"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\internal_impl-24.2.1-11f7ab0607eaaa58d3b7bc3f84f908292ce7dd2c.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\.android\build-cache\a978fe713f377f16d7254fa08fc3a8c2708af9a2\output\jars\classes.jar"
+        revision="25.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-92473adc0d4498211bb4f0e09a8afa689f037438.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\.android\build-cache\685c39a2c3809a6fd18e293e899d6a15b6c73a6e\output\jars\classes.jar"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-34eb291d581b9603730a3a6a5d6eaf54a930ea69.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        revision="25.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\support-annotations-24.2.1-0935e1cb3b3415103aa0d8f7c40b1977d4937fa9.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\.android\build-cache\ed78449eed13a626b7a6f412d92893978925ec24\output\jars\classes.jar"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-4cf6dbc3746ce2d9bf367cd8a09746bd46a19d55.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\.android\build-cache\cebabdf22e5582d5f840a011a77b080236aefe2e\output\jars\classes.jar"
+        revision="25.0.0"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-55783a5edded5365b792f74d67b70c4c0d23d524.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\.android\build-cache\ea25674cfb13e8ace5df8c36689d65db32251086\output\jars\classes.jar"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-a9d67698465d1abb0a0523b2cedef1053394ebbf.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\.android\build-cache\9daf1e56b6a84385c5272c0180513bc6f9956f41\output\jars\classes.jar"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-5ec9880b51d0a6af07ada6dd6b0dc42b8d97980f.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\.android\build-cache\6944217a22097af23a4efc6c4198d1932eed1e45\output\jars\classes.jar"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-11fc76dd29b89116a43c7dd1feb70d6ff6b797c8.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\.android\build-cache\824b91800e6d5ac3b4ceef734f131fa0a774bdc3\output\jars\classes.jar"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-2b5317279c0dbc3c829f922c0bf7a5bf35749f8e.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\AppData\Local\Android\Sdk\platforms\android-24\android.jar"
+        revision="25.0.0"
+        sha1="d49cc0972df7adf495d3ad3d0cf71c0ec517ace4">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\android-ccac73c967ea7563ed276b6c03c33f2f3a87d25b.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\.android\build-cache\ace9118103b98f564e9447c3a63a70a95dae73e0\output\jars\libs\internal_impl-24.2.1.jar"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\internal_impl-24.2.1-879ab78b264cfd100411ccf065b8ab00ed1fca00.jar" />
+    </item>
+    <item
+        jar="C:\Users\kitty92cats\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\kitty92cats\Documents\GitHub\CIS357Homework\HW7\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\constraint-layout-solver-1.0.2-a36a5253b795abdf4f1c7739c254f46ed2f0ccef.jar" />
+    </item>
+
+</items>
