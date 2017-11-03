@@ -23,35 +23,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="vtK-5C-bmf">
-                                <rect key="frame" x="16" y="148" width="105" height="30"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="008-cg-eeJ" customClass="GeoCalcButton" customModule="HW9" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="105" height="30"/>
-                                        <state key="normal" title="Calculate"/>
-                                        <connections>
-                                            <action selector="calculateData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hgv-dR-M7K"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="008-cg-eeJ" firstAttribute="width" secondItem="vtK-5C-bmf" secondAttribute="width" multiplier="1:3" constant="70" id="2UL-Vi-Qjd"/>
-                                </constraints>
-                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="008-cg-eeJ" customClass="GeoCalcButton" customModule="HW9" customModuleProvider="target">
+                                <rect key="frame" x="16" y="148" width="125" height="30"/>
+                                <state key="normal" title="Calculate"/>
+                                <connections>
+                                    <action selector="calculateData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hgv-dR-M7K"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="quE-p0-5jY" customClass="GeoCalcButton" customModule="HW9" customModuleProvider="target">
                                 <rect key="frame" x="234" y="148" width="125" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="mjH-NA-RdJ"/>
+                                </constraints>
                                 <state key="normal" title="Clear"/>
                                 <connections>
                                     <action selector="clearData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bdx-rh-csQ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Distance:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KT1-kx-nG2" customClass="GeoCalcLabel" customModule="HW9" customModuleProvider="target">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distance:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KT1-kx-nG2" customClass="GeoCalcLabel" customModule="HW9" customModuleProvider="target">
                                 <rect key="frame" x="16" y="186" width="72" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Bearing:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YsD-Ii-y4k" customClass="GeoCalcLabel" customModule="HW9" customModuleProvider="target">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bearing:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YsD-Ii-y4k" customClass="GeoCalcLabel" customModule="HW9" customModuleProvider="target">
                                 <rect key="frame" x="16" y="215" width="63.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -108,35 +103,42 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ri-su-F17" customClass="GeoCalcButton" customModule="HW9" customModuleProvider="target">
-                                <rect key="frame" x="125" y="617" width="125" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YYx-XB-W67" customClass="GeoCalcButton" customModule="HW9" customModuleProvider="target">
+                                <rect key="frame" x="124.5" y="629" width="125" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="125" id="IS7-u1-QYF"/>
+                                    <constraint firstAttribute="width" constant="125" id="ncO-Wg-0Up"/>
                                 </constraints>
                                 <state key="normal" title="Search"/>
                                 <connections>
-                                    <segue destination="Lvx-Q9-FcU" kind="show" identifier="searchSegue" id="RDP-R4-ZBd"/>
+                                    <segue destination="f1v-UG-8Cp" kind="show" identifier="searchSegue" id="k0j-FP-8cr"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Rgu-Kv-wHC" firstAttribute="leading" secondItem="KT1-kx-nG2" secondAttribute="trailing" constant="53" id="2Xi-5p-Tcg"/>
+                            <constraint firstItem="YYx-XB-W67" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="108.5" id="3iU-0k-Xxq"/>
                             <constraint firstAttribute="trailingMargin" secondItem="63F-6w-yIb" secondAttribute="trailing" priority="1" id="7xb-qk-6wp"/>
                             <constraint firstAttribute="trailingMargin" secondItem="2A6-Me-GxO" secondAttribute="trailing" id="8sl-r8-BnC"/>
                             <constraint firstItem="quE-p0-5jY" firstAttribute="top" secondItem="2A6-Me-GxO" secondAttribute="bottom" constant="8" id="Bci-uZ-3ko"/>
                             <constraint firstItem="YsD-Ii-y4k" firstAttribute="top" secondItem="KT1-kx-nG2" secondAttribute="bottom" constant="8" id="HdB-f7-sCl"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YYx-XB-W67" secondAttribute="bottom" constant="8" id="IlL-3J-548"/>
                             <constraint firstItem="2A6-Me-GxO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="JSJ-fe-Mj9"/>
                             <constraint firstItem="KT1-kx-nG2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="LK0-X3-bfG"/>
+                            <constraint firstItem="008-cg-eeJ" firstAttribute="top" secondItem="2A6-Me-GxO" secondAttribute="bottom" constant="8" id="MPp-sc-a0T"/>
                             <constraint firstItem="63F-6w-yIb" firstAttribute="top" secondItem="Rgu-Kv-wHC" secondAttribute="bottom" constant="8" id="Miz-u6-dsA"/>
                             <constraint firstItem="63F-6w-yIb" firstAttribute="leading" secondItem="YsD-Ii-y4k" secondAttribute="trailing" constant="60" id="PNx-iw-qU7"/>
+                            <constraint firstItem="YYx-XB-W67" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZGr-YV-ttR"/>
                             <constraint firstItem="2A6-Me-GxO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="jnW-yd-mES"/>
                             <constraint firstItem="Rgu-Kv-wHC" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" priority="1" id="mS4-Vk-70M"/>
                             <constraint firstItem="quE-p0-5jY" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="met-Te-wyN"/>
+                            <constraint firstItem="008-cg-eeJ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:3" id="npl-kF-7RR"/>
                             <constraint firstItem="quE-p0-5jY" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:3" id="ovo-4A-aBA"/>
                             <constraint firstItem="Rgu-Kv-wHC" firstAttribute="top" secondItem="quE-p0-5jY" secondAttribute="bottom" constant="8" id="pyz-7f-DYf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YYx-XB-W67" secondAttribute="trailing" constant="109.5" id="r8E-Pv-EOc"/>
                             <constraint firstItem="YsD-Ii-y4k" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="w9G-dU-GhK"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6ri-su-F17" secondAttribute="bottom" constant="20" id="xEq-Wj-wzA"/>
+                            <constraint firstItem="008-cg-eeJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="xim-vd-KuL"/>
+                            <constraint firstItem="KT1-kx-nG2" firstAttribute="top" secondItem="008-cg-eeJ" secondAttribute="bottom" constant="8" id="zPa-H4-I3M"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="LgF-LS-sRt">
@@ -165,22 +167,22 @@
             <point key="canvasLocation" x="1015.2" y="91.304347826086968"/>
         </scene>
         <!--Location Search View Controller-->
-        <scene sceneID="mAe-6N-YGC">
+        <scene sceneID="dX0-Zc-eh3">
             <objects>
-                <viewController id="Lvx-Q9-FcU" customClass="LocationSearchViewController" customModule="HW9" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="f1v-UG-8Cp" customClass="LocationSearchViewController" customModule="HW9" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="TSJ-ym-CY7"/>
-                        <viewControllerLayoutGuide type="bottom" id="XI3-vx-SMR"/>
+                        <viewControllerLayoutGuide type="top" id="f72-Tg-tyP"/>
+                        <viewControllerLayoutGuide type="bottom" id="rt9-op-Dod"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ewb-j1-89u">
+                    <view key="view" contentMode="scaleToFill" id="htl-sG-VCj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yfk-5L-dVE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LuH-Ba-2Mo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="719" y="904"/>
+            <point key="canvasLocation" x="770" y="810"/>
         </scene>
         <!--History Table View Controller-->
         <scene sceneID="iwO-gl-M77">
@@ -219,7 +221,7 @@
                                 <rect key="frame" x="0.0" y="72" width="375" height="200"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" tableViewCell="Qk3-Sp-gTg" id="c0Z-Xh-1fL">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="199.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hn4-gy-Ty3">
@@ -419,7 +421,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="M6F-cH-hn7" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="0vf-YK-x6J">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0vf-YK-x6J">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

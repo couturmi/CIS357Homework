@@ -46,22 +46,25 @@ class ViewController: UIViewController, SettingsViewControllerDelegate {
     func settingsChanged(distanceUnits: String, bearingUnits: String){
         self.distanceUnit = distanceUnits
         self.bearingUnit = bearingUnits
-        calculateData(UIStoryboardSegue.self)
+        calculateButtonPressed(UIStoryboardSegue.self)
     }
+    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "segueToSettings" {
             if let dest = segue.destination.childViewControllers[0] as? SettingsViewController {
                 dest.delegate = self
             }
-        }
-        
-        if segue.identifier == "historySegue" {
+        } else if segue.identifier == "historySegue" {
             let historyTVC = segue.destination as! HistoryTableViewController
             historyTVC.entries = entries
+        } else if segue.identifier == "searchSegue" {
+            if let dest = segue.destination as? LocationSearchViewController {
+                dest.delegate = self
+            }
         }
     }
-
+    
     @IBAction func clearData(_ sender: UIButton) {
         self.dismissKB()
         // Clear all text fields and data labels
@@ -73,7 +76,8 @@ class ViewController: UIViewController, SettingsViewControllerDelegate {
         self.bearing.text = ""
     }
 
-    @IBAction func calculateData(_ sender: Any) {
+    func doCalculatations()
+    {
         self.dismissKB()
         if self.checkIfEmptyValues() {
             self.distance.text = "Please enter data in all fields"
@@ -121,9 +125,37 @@ class ViewController: UIViewController, SettingsViewControllerDelegate {
         self.distance.text = "\(String(format: "%.2f",d)) \(distanceUnit)"
         self.bearing.text = "\(String(format: "%.2f",b)) \(bearingUnit)"
         
-
+        
+        
+        
+        
+        
+//        guard let p1lt = Double(self.latp1.text!), let p1ln = Double(self.longp1.text!), let p2lt = Double(self.latp2.text!), let p2ln = Double(longp2.text!) else {
+//            return
+//        }
+//        let p1 = CLLocation(latitude: p1lt, longitude: p1ln)
+//        let p2 = CLLocation(latitude: p2lt, longitude: p2ln)
+//        let dista = p1.distance(from: p2)
+//        let beari = p1.bearingToPoint(point: p2)
+        
+//        if distanceUnit == "Kilometers" {
+//            self.distance.text = "Distance: \((dista / 10.0).rounded() / 100.0) kilometers"
+//        } else {
+//            self.distance.text = "Distance: \((dista * 0.0621371).rounded() / 100.0) miles"
+//        }
+//
+//        if bearingUnit == "Degrees" {
+//            self.bearing.text = "Bearing: \((beari * 100).rounded() / 100.0) degrees."
+//        } else {
+//            self.bearing.text = "Bearing: \((beari * 1777.7777777778).rounded() / 100.0) mils."
+//        }
     }
-    
+
+    @IBAction func calculateButtonPressed(_ sender: Any) {
+        self.doCalculatations()
+        self.view.endEditing(true)
+    }
+        
     func checkIfEmptyValues() -> Bool{
         if(self.latp1.text! == ""){
             return true
@@ -153,4 +185,16 @@ class ViewController: UIViewController, SettingsViewControllerDelegate {
     }
     
 }
+
+extension ViewController: LocationSearchDelegate {
+    func set(calculationData: LocationLookup)
+    {
+        self.latp1.text = "\(calculationData.origLat)"
+        self.longp1.text = "\(calculationData.origLng)"
+        self.latp2.text = "\(calculationData.destLat)"
+        self.longp2.text = "\(calculationData.destLng)"
+        self.doCalculatations()
+    }
+}
+
 
