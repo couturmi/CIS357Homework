@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import GooglePlaces
+let GOOGLE_PLACES_API_KEY = "AIzaSyAe-k_cNb3N4WSb27LOCXt2t3YzoNqfrHo"
 
 let BACKGROUND_COLOR = UIColor.init(colorLiteralRed:0.000, green:0.369, blue:0.420,
                                     alpha:1.00) // Blueish
@@ -29,6 +31,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         navAppear.isTranslucent = false
         navAppear.titleTextAttributes = [NSForegroundColorAttributeName : UIColor.white]
         
+        GMSPlacesClient.provideAPIKey(GOOGLE_PLACES_API_KEY)
         
         return true
     }
