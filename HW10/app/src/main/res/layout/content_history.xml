@@ -11,8 +11,12 @@
     <fragment
         android:id="@+id/fragment"
         android:name="couturier_crowe.android.hw4.HistoryFragment"
-        android:layout_width="368dp"
-        android:layout_height="495dp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout="@layout/fragment_history_list" />
+
 </android.support.constraint.ConstraintLayout>
