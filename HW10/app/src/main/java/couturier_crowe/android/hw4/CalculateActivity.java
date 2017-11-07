@@ -19,7 +19,7 @@ public class CalculateActivity extends AppCompatActivity {
 
     public static final int SETTINGS_RESULT = 1;
 
-    public static final int HISTORY_RESULT = 1;
+    public static final int HISTORY_RESULT = 2;
 
 
     String distUnit = "kilometers";
