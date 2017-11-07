@@ -1,5 +1,6 @@
 package couturier_crowe.android.hw4;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -7,7 +8,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-public class HistoryActivity extends AppCompatActivity {
+import couturier_crowe.android.hw4.dummy.HistoryContent;
+
+public class HistoryActivity extends AppCompatActivity
+        implements HistoryFragment.OnListFragmentInteractionListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +28,17 @@ public class HistoryActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+
     }
 
+    @Override
+    public void onListFragmentInteraction(HistoryContent.HistoryItem item) {
+        System.out.println("Interact!");
+        Intent intent = new Intent();
+        String[] vals = {item.origLat, item.origLng, item.destLat, item.destLng};
+        intent.putExtra("item", vals);
+        setResult(CalculateActivity.HISTORY_RESULT,intent);
+        finish();
+    }
 }

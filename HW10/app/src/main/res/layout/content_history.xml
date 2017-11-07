@@ -8,4 +8,11 @@
     tools:context="couturier_crowe.android.hw4.HistoryActivity"
     tools:showIn="@layout/activity_history">
 
+    <fragment
+        android:id="@+id/fragment"
+        android:name="couturier_crowe.android.hw4.HistoryFragment"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
 </android.support.constraint.ConstraintLayout>

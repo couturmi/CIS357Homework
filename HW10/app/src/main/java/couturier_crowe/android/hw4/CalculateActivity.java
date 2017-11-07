@@ -11,10 +11,16 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import org.joda.time.DateTime;
+
+import couturier_crowe.android.hw4.dummy.HistoryContent;
+
 public class CalculateActivity extends AppCompatActivity {
 
     public static final int SETTINGS_RESULT = 1;
-    private static final int HISTORY_RESULT = 1;
+
+    public static final int HISTORY_RESULT = 1;
+
 
     String distUnit = "kilometers";
     String bearUnit = "degrees";
@@ -83,6 +89,13 @@ public class CalculateActivity extends AppCompatActivity {
             bearUnit = data.getStringExtra("bearing");
             makeCalculations();
             System.out.println("DIST: "+distUnit);
+        }else if (resultCode == HISTORY_RESULT) {
+            String[] vals = data.getStringArrayExtra("item");
+            this.latitudep1.setText(vals[0]);
+            this.longitudep1.setText(vals[1]);
+            this.latitudep2.setText(vals[2]);
+            this.longitudep2.setText(vals[3]);
+            this.makeCalculations();  // code that updates the calcs.
         }
     }
 
@@ -134,6 +147,9 @@ public class CalculateActivity extends AppCompatActivity {
             String strBear = Float.toString(bearValue.floatValue());
             bearing.setText("Bearing: " + strBear + " degrees");
         }
+        HistoryContent.HistoryItem item = new HistoryContent.HistoryItem(strLatP1.toString(),
+                strLongP1.toString(), strLatP2.toString(), strLongP2.toString(), DateTime.now());
+        HistoryContent.addItem(item);
     }
 
     private boolean anyInputsEmpty() {

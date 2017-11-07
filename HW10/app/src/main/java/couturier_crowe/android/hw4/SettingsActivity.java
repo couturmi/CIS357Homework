@@ -59,7 +59,7 @@ public class SettingsActivity extends AppCompatActivity {
             Intent intent = new Intent();
             intent.putExtra("distance", distanceSelected);
             intent.putExtra("bearing", bearingSelected);
-            setResult(CalculateActivity.UNIT_SELECTION,intent);
+            setResult(CalculateActivity.SETTINGS_RESULT,intent);
             finish();
         });
 
