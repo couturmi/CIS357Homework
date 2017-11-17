@@ -9,7 +9,860 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="485deb6f-aab9-4ed3-8fcf-1e794ef85135" name="Default" comment="" />
+    <list default="true" id="485deb6f-aab9-4ed3-8fcf-1e794ef85135" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculator.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculator.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculator.xcodeproj/project.xcworkspace/xcuserdata/engeljo.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculator.xcodeproj/xcuserdata/engeljo.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculator.xcodeproj/xcuserdata/engeljo.xcuserdatad/xcschemes/GeoCalculator.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculator.xcodeproj/xcuserdata/engeljo.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculator.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculator.xcworkspace/xcuserdata/engeljo.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculator.xcworkspace/xcuserdata/engeljo.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculator/AppDelegate.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculator/Assets.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculator/Assets.xcassets/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculator/Assets.xcassets/landscapeLeft.imageset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculator/Assets.xcassets/landscapeLeft.imageset/snow.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculator/Assets.xcassets/landscapeRight.imageset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculator/Assets.xcassets/landscapeRight.imageset/IMG_2348.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculator/Base.lproj/LaunchScreen.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculator/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculator/CLLocationExtensions.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculator/DecimalMinusTextField.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculator/GeoCalcButton.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculator/GeoCalcLabel.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculator/GeoCalcTextField.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculator/HistoryTableViewCell.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculator/HistoryTableViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculator/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculator/LocationLookup.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculator/LocationSearchViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculator/SettingsViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculator/ViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculatorTests/GeoCalculatorTests.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculatorTests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculatorUITests/GeoCalculatorUITests.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/GeoCalculatorUITests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Podfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Podfile.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Core/BaseRow.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Core/Cell.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Core/CellType.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Core/Core.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Core/Form.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Core/HeaderFooterView.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Core/Helpers.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Core/InlineRowType.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Core/NavigationAccessoryView.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Core/Operators.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Core/PresenterRowType.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Core/Row.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Core/RowControllerType.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Core/RowProtocols.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Core/RowType.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Core/Section.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Core/SelectableRowType.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Core/SelectableSection.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Core/Validation.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Resources/Eureka.bundle/back-chevron@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Resources/Eureka.bundle/back-chevron@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Resources/Eureka.bundle/back-chevron@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Resources/Eureka.bundle/forward-chevron@1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Resources/Eureka.bundle/forward-chevron@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Resources/Eureka.bundle/forward-chevron@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/ActionSheetRow.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/AlertRow.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/ButtonRow.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/ButtonRowWithPresent.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/CheckRow.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/Common/DateFieldRow.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/Common/DateInlineFieldRow.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/Common/DecimalFormatter.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/Common/FieldRow.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/Common/GenericMultipleSelectorRow.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/Common/OptionsRow.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/Common/Protocols.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/Common/SelectorRow.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/Controllers/MultipleSelectorViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/Controllers/SelectorAlertController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/Controllers/SelectorViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/DateInlineRow.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/DatePickerRow.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/DateRow.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/FieldsRow.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/LabelRow.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/MultipleSelectorRow.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/PickerInlineRow.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/PickerInputRow.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/PickerRow.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/PopoverSelectorRow.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/PushRow.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/SegmentedRow.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/SelectableRows/ListCheckRow.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/SliderRow.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/StepperRow.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/SwitchRow.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Rows/TextAreaRow.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Validations/RuleClosure.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Validations/RuleEmail.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Validations/RuleEqualsToRow.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Validations/RuleLength.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Validations/RuleRange.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Validations/RuleRegExp.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Validations/RuleRequired.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Eureka/Source/Validations/RuleURL.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/GoogleMapsBase" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Versions/A/GoogleMapsBase" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Versions/A/Headers/GMSCompatabilityMacros.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Versions/A/Headers/GMSCoordinateBounds.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Versions/A/Headers/GoogleMapsBase.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Versions/A/Modules/module.modulemap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Versions/Current" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/CHANGELOG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/DemoAppDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/DemoAppDelegate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/MapsDemoAssets.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/MapsDemoAssets.xcassets/AppIcon.appiconset/Maps-SDK-Demo-App_120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/MapsDemoAssets.xcassets/AppIcon.appiconset/Maps-SDK-Demo-App_152.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/MapsDemoAssets.xcassets/AppIcon.appiconset/Maps-SDK-Demo-App_167.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/MapsDemoAssets.xcassets/AppIcon.appiconset/Maps-SDK-Demo-App_180.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/MapsDemoAssets.xcassets/AppIcon.appiconset/Maps-SDK-Demo-App_76.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/MapsDemoAssets.xcassets/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/MapsDemoAssets.xcassets/LaunchImage.launchimage/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/MapsDemoAssets.xcassets/LaunchImage.launchimage/LaunchImage-iPadLandscape1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/MapsDemoAssets.xcassets/LaunchImage.launchimage/LaunchImage-iPadLandscape2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/MapsDemoAssets.xcassets/LaunchImage.launchimage/LaunchImage-iPadPortrait1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/MapsDemoAssets.xcassets/LaunchImage.launchimage/LaunchImage-iPadPortrait2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/MapsDemoAssets.xcassets/LaunchImage.launchimage/LaunchImage-iPhonePortrait2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/MapsDemoAssets.xcassets/LaunchImage.launchimage/LaunchImage-iPhonePortraitRetina4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/MasterViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/MasterViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/LaunchScreen.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/Museum-Icons/h1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/Museum-Icons/h1@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/Museum-Icons/spitfire.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/Museum-Icons/spitfire@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/Museum-Icons/voyager.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/Museum-Icons/voyager@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/Museum-Icons/x29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/Museum-Icons/x29@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/aeroplane.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/aeroplane@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/ar.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/argentina-large.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/argentina.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/arrow@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/australia-large.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/australia-large@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/australia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/boat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/boat@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/botswana-large.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/botswana.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/bulgaria-large.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/bulgaria.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/ca.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/cs.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/da.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/de.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/el.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/en.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/en_GB.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/es.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/fi.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/fr.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/glow-marker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/glow-marker@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/he.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/hr.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/hu.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/id.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/it.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/ja.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/ko.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/mapstyle-night.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/mapstyle-retro.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/mapstyle-silver.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/ms.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/museum-exhibits.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/nb.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/newark_nj_1922.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/nl.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/pl.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/popup_santa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/popup_santa@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/pt.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/pt_PT.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/ro.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/ru.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/sk.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step1@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step2@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step3@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step4@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step5@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step6@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step7@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step8@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/sv.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/th.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/tr.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/track.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/uk.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/vi.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/zh_CN.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/zh_TW.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/SDKDemoAPIKey.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/AnimatedCurrentLocationViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/AnimatedCurrentLocationViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/AnimatedUIViewMarkerViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/AnimatedUIViewMarkerViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/BasicMapViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/BasicMapViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/CameraViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/CameraViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/CustomIndoorViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/CustomIndoorViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/CustomMarkersViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/CustomMarkersViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/DoubleMapViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/DoubleMapViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/FitBoundsViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/FitBoundsViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/FixedPanoramaViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/FixedPanoramaViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/FrameRateViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/FrameRateViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/GeocoderViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/GeocoderViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/GestureControlViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/GestureControlViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/GradientPolylinesViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/GradientPolylinesViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/GroundOverlayViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/GroundOverlayViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/IndoorMuseumNavigationViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/IndoorMuseumNavigationViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/IndoorViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/IndoorViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MapLayerViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MapLayerViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MapTypesViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MapTypesViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MapZoomViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MapZoomViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MarkerEventsViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MarkerEventsViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MarkerInfoWindowViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MarkerInfoWindowViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MarkerLayerViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MarkerLayerViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MarkersViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MarkersViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MyLocationViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MyLocationViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/PanoramaViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/PanoramaViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/PolygonsViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/PolygonsViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/PolylinesViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/PolylinesViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/Samples.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/Samples.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/SnapshotReadyViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/SnapshotReadyViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/StructuredGeocoderViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/StructuredGeocoderViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/StyledMapViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/StyledMapViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/TileLayerViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/TileLayerViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/TrafficMapViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/TrafficMapViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/VisibleRegionViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/VisibleRegionViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/GoogleMapsDemos/main.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/Podfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Example/README.GoogleMapsDemos" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/GoogleMaps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/GoogleMaps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSAddress.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSCALayer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSCameraPosition.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSCameraUpdate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSCircle.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSCoordinateBounds+GoogleMaps.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSDeprecationMacros.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSGeocoder.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSGeometryUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSGroundOverlay.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSIndoorBuilding.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSIndoorDisplay.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSIndoorLevel.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSMapLayer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSMapStyle.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSMapView+Animation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSMapView.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSMarker.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSMarkerLayer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSMutablePath.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSOrientation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSOverlay.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSPanorama.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSPanoramaCamera.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSPanoramaCameraUpdate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSPanoramaLayer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSPanoramaLink.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSPanoramaService.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSPanoramaView.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSPath.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSPolygon.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSPolyline.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSProjection.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSServices.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSSyncTileLayer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSTileLayer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSUISettings.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSURLTileLayer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GoogleMaps.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Modules/module.modulemap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCacheStorage.momd/Storage.mom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCacheStorage.momd/Storage.omo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCacheStorage.momd/VersionInfo.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/DroidSansMerged-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavNightModeSprites-0-1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavNightModeSprites-0-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavNightModeSprites-0-3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavSprites-0-1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavSprites-0-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavSprites-0-3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0-1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0-3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/Roboto-Black.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/Roboto-BlackItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/Roboto-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/Roboto-BoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/Roboto-Italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/Roboto-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/Roboto-LightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/Roboto-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/Roboto-MediumItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/Roboto-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/Roboto-Thin.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/Roboto-ThinItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/RobotoCondensed-Italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/RobotoCondensed-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/Siemreap.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/Tharlon-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/ar.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/button_background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/button_background@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/button_background@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/button_compass.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/button_compass@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/button_compass_night.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/button_compass_night@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/button_my_location.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/button_my_location@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/ca.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/cs.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/da.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/dav_one_way_16_256.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/de.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/el.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/en.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/en_AU.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/en_GB.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/en_IN.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/es.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/es_419.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/es_MX.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/fi.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/fr.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/fr_CA.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/googlelogo_56x20_with_2_stroke_color_60x22pt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/googlelogo_56x20_with_2_stroke_color_60x22pt@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/googlelogo_56x20_with_2_stroke_color_60x22pt@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/googlelogo_light_56x20_with_2_stroke_color_60x22pt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/googlelogo_light_56x20_with_2_stroke_color_60x22pt@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/googlelogo_light_56x20_with_2_stroke_color_60x22pt@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/he.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/hi.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/hr.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/hu.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/ic_compass_needle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/ic_compass_needle@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/ic_qu_direction_mylocation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/ic_qu_direction_mylocation@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/ic_qu_direction_mylocation@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/id.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/it.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/ja.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/ko.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/ms.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/nb.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/nl.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/pl.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/polyline_colors_texture.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/polyline_colors_texture_dim.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/pt.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/pt_BR.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/pt_PT.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/ro.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/road_1-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/road_128-32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/road_16-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/road_2-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/road_256-64.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/road_32-8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/road_4-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/road_64-16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/road_8-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/ru.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/sk.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/sv.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/th.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/tr.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/uk.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/vi.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/zh_CN.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/zh_HK.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/zh_TW.lproj/GMSCore.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/bubble_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/bubble_left@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/bubble_left@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/bubble_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/bubble_right@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/bubble_right@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/default_marker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/default_marker@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/default_marker@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/en.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/oss_licenses_maps.txt.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/Current" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMapsCore.framework/GoogleMapsCore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMapsCore.framework/Headers" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMapsCore.framework/Modules" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMapsCore.framework/Versions/A/GoogleMapsCore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMapsCore.framework/Versions/A/Headers/GoogleMapsCore.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMapsCore.framework/Versions/A/Modules/module.modulemap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/Maps/Frameworks/GoogleMapsCore.framework/Versions/Current" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GoogleMaps/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/CHANGELOG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/AppDelegate.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/Base.lproj/LaunchScreen.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/AppIcon.appiconset/PlacePicker-Demo-App_120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/AppIcon.appiconset/PlacePicker-Demo-App_152.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/AppIcon.appiconset/PlacePicker-Demo-App_167.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/AppIcon.appiconset/PlacePicker-Demo-App_180.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/AppIcon.appiconset/PlacePicker-Demo-App_76.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/LaunchImage.launchimage/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/LaunchImage.launchimage/LaunchImage-iPadLandscape1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/LaunchImage.launchimage/LaunchImage-iPadLandscape2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/LaunchImage.launchimage/LaunchImage-iPadPortrait1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/LaunchImage.launchimage/LaunchImage-iPadPortrait2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/LaunchImage.launchimage/LaunchImage-iPhonePortrait2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/LaunchImage.launchimage/LaunchImage-iPhonePortraitRetina4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/address.imageset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/address.imageset/address.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/attribution.imageset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/attribution.imageset/attribution.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/back.imageset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/back.imageset/back.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/coordinate.imageset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/coordinate.imageset/coordinate.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/logo.imageset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/logo.imageset/logo.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/open_now.imageset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/open_now.imageset/open_now.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/phone_number.imageset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/phone_number.imageset/phone_number.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/pins.imageset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/pins.imageset/pins.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/place_id.imageset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/place_id.imageset/place_id.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/price_level.imageset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/price_level.imageset/price_level.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/rating.imageset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/rating.imageset/rating.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/types.imageset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/types.imageset/types.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/website.imageset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/PlacePickerDemoAssets.xcassets/website.imageset/website.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/ar.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/ca.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/cs.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/da.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/de.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/el.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/en.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/en_AU.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/en_GB.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/en_IN.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/es.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/es_419.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/es_MX.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/fi.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/fr.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/fr_CA.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/he.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/hi.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/hr.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/hu.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/id.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/it.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/ja.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/ko.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/ms.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/nb.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/nl.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/pl.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/pt.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/pt_BR.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/pt_PT.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/ro.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/ru.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/sk.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/sv.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/th.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/tr.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/uk.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/vi.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/zh_CN.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/zh_HK.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Resources/zh_TW.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/RoundedButton.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/SDKDemoAPIKey.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/ShadowLineView.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/ShadowView.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Styles.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Support/CGRect+Extensions.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/Support/NotificationObserver.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/ViewControllers/Containers/BackgroundMapViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/ViewControllers/Containers/BaseContainerViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/ViewControllers/Containers/InsetViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/ViewControllers/Containers/SplitPaneViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/ViewControllers/PickAPlace/PickAPlaceViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/ViewControllers/PickAPlace/PickAPlaceViewController.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/ViewControllers/PlaceDetail/PlaceAttributeCell.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/ViewControllers/PlaceDetail/PlaceAttributeCell.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/ViewControllers/PlaceDetail/PlaceDetailTableViewDataSource.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/ViewControllers/PlaceDetail/PlaceDetailViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/ViewControllers/PlaceDetail/PlaceDetailViewController.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/ViewControllers/PlaceDetail/PlaceNameHeader.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/GooglePlacePickerDemos/ViewControllers/PlaceDetail/PlaceNameHeader.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/Podfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Example/README.GooglePlacePickerDemos" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/GooglePlacePicker" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Headers" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Modules" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/GooglePlacePicker" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Headers/GMSPlacePicker.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Headers/GMSPlacePickerConfig.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Headers/GooglePlacePicker.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Modules/module.modulemap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/ar.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/ca.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/cs.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/da.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/de.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/el.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/en.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/en_AU.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/en_GB.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/en_IN.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/es.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/es_419.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/es_MX.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/fi.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/fr.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/fr_CA.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/he.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/hi.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/hr.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/hu.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/id.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/it.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/ja.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/ko.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/ms.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/nb.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/nl.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/pl.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/pt.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/pt_BR.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/pt_PT.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/red_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/red_icons@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/red_icons@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/ro.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/ru.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/sk.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/sv.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/th.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/tr.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/uk.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/vi.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/white_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/white_icons@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/white_icons@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/zh_CN.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/zh_HK.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle/zh_TW.lproj/GooglePlacePicker.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/Current" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlacePicker/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/CHANGELOG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/DemoAppDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/DemoAppDelegate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/DemoData.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/DemoData.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/DemoListViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/DemoListViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/Base.lproj/LaunchScreen.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/PlacesDemoAssets.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/PlacesDemoAssets.xcassets/AppIcon.appiconset/Places-API-Demo-App_120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/PlacesDemoAssets.xcassets/AppIcon.appiconset/Places-API-Demo-App_152.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/PlacesDemoAssets.xcassets/AppIcon.appiconset/Places-API-Demo-App_167.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/PlacesDemoAssets.xcassets/AppIcon.appiconset/Places-API-Demo-App_180.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/PlacesDemoAssets.xcassets/AppIcon.appiconset/Places-API-Demo-App_76.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/PlacesDemoAssets.xcassets/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/PlacesDemoAssets.xcassets/LaunchImage.launchimage/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/PlacesDemoAssets.xcassets/LaunchImage.launchimage/LaunchImage-iPadLandscape1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/PlacesDemoAssets.xcassets/LaunchImage.launchimage/LaunchImage-iPadLandscape2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/PlacesDemoAssets.xcassets/LaunchImage.launchimage/LaunchImage-iPadPortrait1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/PlacesDemoAssets.xcassets/LaunchImage.launchimage/LaunchImage-iPadPortrait2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/PlacesDemoAssets.xcassets/LaunchImage.launchimage/LaunchImage-iPhonePortrait2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/PlacesDemoAssets.xcassets/LaunchImage.launchimage/LaunchImage-iPhonePortraitRetina4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/ar.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/ca.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/cs.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/da.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/de.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/el.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/en.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/en_AU.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/en_GB.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/en_IN.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/es.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/es_419.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/es_MX.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/fi.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/fr.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/fr_CA.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/he.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/hi.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/hr.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/hu.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/id.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/it.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/ja.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/ko.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/ms.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/nb.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/nl.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/pl.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/pt.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/pt_BR.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/pt_PT.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/ro.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/ru.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/sk.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/sv.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/th.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/tr.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/uk.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/vi.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/zh_CN.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/zh_HK.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Resources/zh_TW.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/SDKDemoAPIKey.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Samples/Autocomplete/AutocompleteBaseViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Samples/Autocomplete/AutocompleteBaseViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Samples/Autocomplete/AutocompleteModalViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Samples/Autocomplete/AutocompleteModalViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Samples/Autocomplete/AutocompletePushViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Samples/Autocomplete/AutocompletePushViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Samples/Autocomplete/AutocompleteWithCustomColors.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Samples/Autocomplete/AutocompleteWithCustomColors.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Samples/Autocomplete/AutocompleteWithSearchDisplayController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Samples/Autocomplete/AutocompleteWithSearchDisplayController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Samples/Autocomplete/AutocompleteWithSearchViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Samples/Autocomplete/AutocompleteWithSearchViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Samples/Autocomplete/AutocompleteWithTextFieldController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Samples/Autocomplete/AutocompleteWithTextFieldController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Samples/PagingPhotoView.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Samples/PagingPhotoView.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Samples/PhotosViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Samples/PhotosViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Support/BaseDemoViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Support/BaseDemoViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Support/MainSplitViewControllerBehaviorManager.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/Support/MainSplitViewControllerBehaviorManager.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/GooglePlacesDemos/main.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/Podfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Example/README.GooglePlacesDemos" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/GooglePlaces" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Modules" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Resources" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/GooglePlaces" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Headers/GMSAddressComponent.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Headers/GMSAutocompleteFetcher.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Headers/GMSAutocompleteFilter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Headers/GMSAutocompleteMatchFragment.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Headers/GMSAutocompletePrediction.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Headers/GMSAutocompleteResultsViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Headers/GMSAutocompleteTableDataSource.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Headers/GMSAutocompleteViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Headers/GMSPlace.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Headers/GMSPlaceLikelihood.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Headers/GMSPlaceLikelihoodList.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Headers/GMSPlacePhotoMetadata.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Headers/GMSPlacePhotoMetadataList.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Headers/GMSPlaceTypes.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Headers/GMSPlacesClient.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Headers/GMSPlacesErrors.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Headers/GMSUserAddedPlace.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Headers/GooglePlaces.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Modules/module.modulemap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/ar.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/ca.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/cs.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/da.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/de.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/el.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/en.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/en_AU.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/en_GB.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/en_IN.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/es.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/es_419.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/es_MX.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/fi.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/fr.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/fr_CA.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/he.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/hi.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/hr.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/hu.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/id.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/it.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/ja.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/ko.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/ms.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/nb.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/nl.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/oss_licenses_places.txt.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/pl.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/powered-by-google-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/powered-by-google-dark@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/powered-by-google-dark@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/powered-by-google-light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/powered-by-google-light@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/powered-by-google-light@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/pt.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/pt_BR.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/pt_PT.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/ro.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/ru.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/sad_cloud.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/sad_cloud@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/sad_cloud@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/sad_cloud_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/sad_cloud_dark@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/sad_cloud_dark@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/sk.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/sv.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/th.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/tr.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/uk.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/vi.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/zh_CN.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/zh_HK.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle/zh_TW.lproj/GooglePlaces.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/Current" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/GooglePlaces/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Manifest.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Pods.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Pods.xcodeproj/xcuserdata/engeljo.xcuserdatad/xcschemes/Eureka.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Pods.xcodeproj/xcuserdata/engeljo.xcuserdatad/xcschemes/Pods-GeoCalculator.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Pods.xcodeproj/xcuserdata/engeljo.xcuserdatad/xcschemes/Pods-GeoCalculatorTests.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Pods.xcodeproj/xcuserdata/engeljo.xcuserdatad/xcschemes/Pods-GeoCalculatorUITests.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Pods.xcodeproj/xcuserdata/engeljo.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Eureka/Eureka-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Eureka/Eureka-prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Eureka/Eureka-umbrella.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Eureka/Eureka.modulemap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Eureka/Eureka.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Eureka/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Pods-GeoCalculator/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Pods-GeoCalculator/Pods-GeoCalculator-acknowledgements.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Pods-GeoCalculator/Pods-GeoCalculator-acknowledgements.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Pods-GeoCalculator/Pods-GeoCalculator-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Pods-GeoCalculator/Pods-GeoCalculator-frameworks.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Pods-GeoCalculator/Pods-GeoCalculator-resources.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Pods-GeoCalculator/Pods-GeoCalculator-umbrella.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Pods-GeoCalculator/Pods-GeoCalculator.debug.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Pods-GeoCalculator/Pods-GeoCalculator.modulemap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Pods-GeoCalculator/Pods-GeoCalculator.release.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Pods-GeoCalculatorTests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Pods-GeoCalculatorTests/Pods-GeoCalculatorTests-acknowledgements.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Pods-GeoCalculatorTests/Pods-GeoCalculatorTests-acknowledgements.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Pods-GeoCalculatorTests/Pods-GeoCalculatorTests-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Pods-GeoCalculatorTests/Pods-GeoCalculatorTests-frameworks.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Pods-GeoCalculatorTests/Pods-GeoCalculatorTests-resources.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Pods-GeoCalculatorTests/Pods-GeoCalculatorTests-umbrella.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Pods-GeoCalculatorTests/Pods-GeoCalculatorTests.debug.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Pods-GeoCalculatorTests/Pods-GeoCalculatorTests.modulemap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Pods-GeoCalculatorTests/Pods-GeoCalculatorTests.release.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Pods-GeoCalculatorUITests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Pods-GeoCalculatorUITests/Pods-GeoCalculatorUITests-acknowledgements.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Pods-GeoCalculatorUITests/Pods-GeoCalculatorUITests-acknowledgements.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Pods-GeoCalculatorUITests/Pods-GeoCalculatorUITests-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Pods-GeoCalculatorUITests/Pods-GeoCalculatorUITests-frameworks.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Pods-GeoCalculatorUITests/Pods-GeoCalculatorUITests-resources.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Pods-GeoCalculatorUITests/Pods-GeoCalculatorUITests-umbrella.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Pods-GeoCalculatorUITests/Pods-GeoCalculatorUITests.debug.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Pods-GeoCalculatorUITests/Pods-GeoCalculatorUITests.modulemap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../HW11/GeoCalculator/Pods/Target Support Files/Pods-GeoCalculatorUITests/Pods-GeoCalculatorUITests.release.xcconfig" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_history.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_history.xml" />
+    </list>
     <ignored path="HW4.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,7 +906,7 @@
       <file leaf-file-name="CalculateActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/couturier_crowe/android/hw4/CalculateActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
+            <state relative-caret-position="2346">
               <caret line="151" column="23" selection-start-line="151" selection-start-column="23" selection-end-line="151" selection-end-column="23" />
               <folding />
             </state>
@@ -63,7 +916,7 @@
       <file leaf-file-name="FragmentManager.java" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../../../../AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-fragment/25.3.1/support-fragment-25.3.1-sources.jar!/android/support/v4/app/FragmentManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
+            <state relative-caret-position="16677">
               <caret line="1064" column="0" selection-start-line="1064" selection-start-column="0" selection-end-line="1064" selection-end-column="0" />
               <folding />
             </state>
@@ -73,49 +926,31 @@
       <file leaf-file-name="Fragment.java" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../../../../AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-fragment/25.3.1/support-fragment-25.3.1-sources.jar!/android/support/v4/app/Fragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
+            <state relative-caret-position="32708">
               <caret line="2079" column="0" selection-start-line="2079" selection-start-column="0" selection-end-line="2079" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HistoryContent.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HistoryContent.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/couturier_crowe/android/hw4/dummy/HistoryContent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
+            <state relative-caret-position="300">
               <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-              <folding>
-                <element signature="e#963#964#0" expanded="true" />
-                <element signature="e#994#995#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content_history.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="content_history.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_history.xml">
           <provider selected="true" editor-type-id="android-designer2">
             <state />
           </provider>
           <provider editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-              <folding>
-                <element signature="e#355#395#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fragment_history_list.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_history_list.xml">
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -124,7 +959,7 @@
       <file leaf-file-name="HistoryAdapter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/couturier_crowe/android/hw4/HistoryAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1581">
+            <state relative-caret-position="1241">
               <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -155,7 +990,7 @@
       <file leaf-file-name="HistoryFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/couturier_crowe/android/hw4/HistoryFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
+            <state relative-caret-position="986">
               <caret line="70" column="69" selection-start-line="70" selection-start-column="55" selection-end-line="70" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -2079,12 +2914,12 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_history_list.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/transparent_box.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_history.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_history.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/list_section_header.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/couturier_crowe/android/hw4/HistoryAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/couturier_crowe/android/hw4/HistoryFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/couturier_crowe/android/hw4/dummy/HistoryContent.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_history.xml" />
       </list>
     </option>
   </component>
@@ -2119,6 +2954,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2159,80 +2998,8 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HW10" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="drawable" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HW10" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HW10" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hw4" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HW10" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hw4" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dummy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2247,17 +3014,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/sdk" />
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="device.picker.selection" value="Nexus_6_API_23_with_Google_APIs" />
+    <property name="device.picker.selection" value="ZX1F22RQXD" />
     <property name="VectorAssetImportPath" value="H:\Users\mitchcout\Code\git\CIS-357-Homework" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -2601,8 +3364,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5623608" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0701559" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2610,7 +3372,6 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14392324" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2623,6 +3384,8 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2641,16 +3404,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_settings.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="74" column="42" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/couturier_crowe/android/hw4/CalculateActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -2816,7 +3569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2838,7 +3590,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2849,7 +3600,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="552">
           <caret line="131" column="44" selection-start-line="131" selection-start-column="44" selection-end-line="131" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2857,9 +3607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2883,7 +3630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="657">
           <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2902,7 +3648,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2913,7 +3658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="22" column="48" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2925,19 +3669,6 @@
         <state relative-caret-position="136">
           <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_history.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding>
-            <element signature="e#355#395#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2962,7 +3693,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/couturier_crowe/android/hw4/CalculateActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
+        <state relative-caret-position="2346">
           <caret line="151" column="23" selection-start-line="151" selection-start-column="23" selection-end-line="151" selection-end-column="23" />
           <folding />
         </state>
@@ -2970,7 +3701,7 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../../../AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-fragment/25.3.1/support-fragment-25.3.1-sources.jar!/android/support/v4/app/FragmentManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
+        <state relative-caret-position="16677">
           <caret line="1064" column="0" selection-start-line="1064" selection-start-column="0" selection-end-line="1064" selection-end-column="0" />
           <folding />
         </state>
@@ -2978,7 +3709,7 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../../../AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-fragment/25.3.1/support-fragment-25.3.1-sources.jar!/android/support/v4/app/Fragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
+        <state relative-caret-position="32708">
           <caret line="2079" column="0" selection-start-line="2079" selection-start-column="0" selection-end-line="2079" selection-end-column="0" />
           <folding />
         </state>
@@ -2986,7 +3717,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/couturier_crowe/android/hw4/HistoryAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
+        <state relative-caret-position="1241">
           <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -3002,7 +3733,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/couturier_crowe/android/hw4/HistoryFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
+        <state relative-caret-position="986">
           <caret line="70" column="69" selection-start-line="70" selection-start-column="55" selection-end-line="70" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -3012,12 +3743,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/couturier_crowe/android/hw4/dummy/HistoryContent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
+        <state relative-caret-position="300">
           <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="e#963#964#0" expanded="true" />
-            <element signature="e#994#995#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/image_landscape.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_history.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>

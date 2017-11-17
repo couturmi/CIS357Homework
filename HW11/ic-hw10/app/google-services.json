@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "780832470234",
+    "firebase_url": "https://geocalculator-e55ca.firebaseio.com",
+    "project_id": "geocalculator-e55ca",
+    "storage_bucket": "geocalculator-e55ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780832470234:android:f579e4f793d0b6c2",
+        "android_client_info": {
+          "package_name": "cis.gvsu.edu.geocalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780832470234-neukods762mrj5tdp6loe8au3135n9qe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCylvOq_vDRHJ0cYLxJyUj87n1fgRaKaHs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
